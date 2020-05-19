@@ -1,0 +1,27 @@
+.footer{
+    background-color: #00300B;
+
+    height: 50vh;
+    text-align: center;
+    vertical-align: middle;
+
+
+    margin-top: 8%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+    .footer a{
+        background-color: #F9F9F9;
+        padding: 30px 50px;
+        text-decoration: none;
+        color: #00300B;
+
+
+    }

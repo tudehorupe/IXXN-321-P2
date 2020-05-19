@@ -1,0 +1,23 @@
+.nav{
+    text-decoration: none;
+    background: rgb(0, 48, 11, 0.7);
+    text-align: center;
+    padding: 3%;
+    position: fixed;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* display: none; */
+    
+}
+
+.link{
+    text-decoration: none;
+    color: #F9F9F9;
+}
+
+.home-link, .about-link, .gallery-link, .contact-link{
+    margin: 0 2em;
+    padding: 1%;
+}
