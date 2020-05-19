@@ -4,8 +4,13 @@ import "../css/Footer.css";
 
 export default function Footer() {
     return (
-        <div className="footer">
-			<a href="#top-link">Return to top</a>
+        <div className="this">
+
+            <div class="footer">
+            <a class="" href="#top-link">
+            <h1 class="footer-shape">></h1>
+			</a>
+            </div>
 
             {/* <Link to="/home" className="return-top link">Home</Link>
             <Link to="/pageone" className="about-link link">About</Link>

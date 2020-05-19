@@ -1,13 +1,51 @@
-/* .home-page{
+.landing-section, .green-page{
   background-color: #00300B;
   height: 100vh;
-} */
+}
 
-.title{
-    padding-top: 50vh;
-    line-height: 1;
-    font-size: 550%;
-    font-weight: 900;
-    color: #F9F9F9;
-    text-align: center;
-  }
+
+
+.landing-image{
+  width: 20vw;
+
+}
+
+
+
+.quote{
+  vertical-align: middle;
+  max-width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 130%;
+  position: relative;
+  background-color: #F9F9F9;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.quote-mark{
+  font-size: 600%;
+}
+
+.quote-text{
+  text-align: center;
+  margin-top: -10vh;
+
+}
+
+.red-vertical-line{
+  position: absolute;
+  background-color: #B83308;
+  width: 1vh;
+  height: 100vh;
+  margin-left: 50%;
+}
+
+
+.white-page{
+  background-color: grey;
+  height: 100vh;
+  color: #B83308;
+}

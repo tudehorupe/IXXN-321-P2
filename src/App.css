@@ -10,6 +10,7 @@ html{
 
 h1, h3, a{
   font-family: 'Yeseva One', cursive;
+
 }
 
 p{
@@ -25,7 +26,16 @@ a{
   height: 100vh;
 }
 
+.landing-section{
+  background-color: #00300B;
+  height: 100vh;
+}
 
+
+.social{
+  margin: 200vh;
+  background-color: red;
+}
 
 
 /* .top-window, .third-window{

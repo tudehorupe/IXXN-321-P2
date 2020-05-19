@@ -1,27 +1,20 @@
 .footer{
-    background-color: #00300B;
+    left: 0;
+    bottom: 0;
 
-    height: 50vh;
-    text-align: center;
-    vertical-align: middle;
+    width: 10vh;
+    height: 10vh;
+    margin-left: 50%;
+    border-radius: 50%;
+    background-color: red;
 
-
-    margin-top: 8%;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 30px 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+    
 }
 
-    .footer a{
-        background-color: #F9F9F9;
-        padding: 30px 50px;
-        text-decoration: none;
-        color: #00300B;
+
+/* .footer-shape{
+
+    transform: rotate(270deg);
 
 
-    }
+} */
