@@ -12,6 +12,36 @@
 }
 
 
+.our-portfolio-link{
+	border: none;
+    text-align: center;
+    vertical-align: middle;
+	text-decoration: none;
+	display: inline-block;
+    cursor: pointer;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    background-color: red;
+    color: #F9F9F9;
+    margin-top: 10vh;
+    margin-bottom: 25vh;
+    margin-left: 47.5vw;
+
+
+    /* transform: rotate(270deg); */
+
+
+}
+
+
+.our-portfolio-link a{
+    padding: 50%;
+    transform: rotate(270deg);
+
+
+}
+
 /* .footer-shape{
 
     transform: rotate(270deg);

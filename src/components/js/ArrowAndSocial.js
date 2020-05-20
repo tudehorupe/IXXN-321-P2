@@ -1,11 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "../css/Nav.css";
-import assets from "../../assets/fb-logo.svg";
 
 export default function Nav() {
     return (
-        <div className="">
+        <div className="nav">
 
         <div class="navbar">
             <Link to="/home" className="home-link link">Home</Link>
@@ -15,16 +14,9 @@ export default function Nav() {
         </div>
 
         <div class="social-links">
-            <a href="https://www.facebook.com/" target="_blank"><img src={assets} alt="Logo" /></a>
-            <a href="https://www.instagram.com/" target="_blank"> <img src={assets} alt="Logo" /></a>
-{/* 
-            <img src={assets} alt="Logo" />
-
             <h2>FB</h2>
-            <h2>IG</h2> */}
+            <h2>IG</h2>
         </div>
-
-        
 
         </div>
 
