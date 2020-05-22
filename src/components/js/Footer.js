@@ -1,12 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "../css/Footer.css";
+import footer from "../../assets/footer.svg";
 
 export default function Footer() {
     return (
-        <div className="">
+        <div className="footer">
 
-            <a href="#top-link" class="our-portfolio-link">.></a>
+            {/* <a href="#top-link" class="our-portfolio-link">.f></a> */}
+
+
+            <a href="#top-link" class="our-portfolio-link"> <img src={footer} alt="Logo" /></a>
+
 
 
 

@@ -8,6 +8,7 @@
     margin-left: auto;
     margin-right: auto;
     z-index: 2;
+    background-color: #00300B;
 
     /* display: none; */
     
@@ -16,6 +17,20 @@
 .link{
     text-decoration: none;
     color: #F9F9F9;
+
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.active{
+    text-decoration: underline;
+}
+
+.contact-link link{
+    text-decoration: underline;
+
 }
 
 .home-link, .about-link, .gallery-link, .contact-link{
@@ -27,13 +42,40 @@
 .social-links{
     /* position: relative; */
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
     float: right;
     margin-top: 90vh;
     margin-right: 3vw;
-    background-color: red;
+    /* background-color: red; */
   }
 
   .social-links img{
-    width: 45%;
+    width: 5vh;
     height: auto;
+
+
+
+
+
+
+
+/* 
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+	text-decoration: none;
+	display: inline-block;
+    cursor: pointer;
+    width: 10vh;
+    height: 10vh;
+    background-color: red;
+    color: #F9F9F9; */
+
+  }
+
+  .social-links a {
+    padding: 0;
+    margin:  0 1vw;
   }

@@ -5,6 +5,10 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Home from "./pages/js/Home";
 import About from "./pages/js/About";
+import Gallery from "./pages/js/Gallery";
+// import Contact from "./pages/js/Contact";
+
+
 import Nav from "./components/js/Nav";
 import Footer from "./components/js/Footer";
 
@@ -24,6 +28,8 @@ function App() {
 
       <Route path="/Home" component={Home} />
       <Route path="/About" component={About} />
+      <Route path="/Gallery" component={Gallery} />
+
 
 
       {/* <div className="top-window">
