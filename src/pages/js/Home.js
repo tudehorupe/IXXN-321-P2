@@ -1,6 +1,9 @@
 import React from 'react';
 import '../css/Home.css';
 import hydrangeaCloseUp from "../../assets/hydrangeaCloseUp.jpg";
+import galleryShortcut from "../../assets/pinkWhiteRoses.jpg";
+import contactUsShortcut from "../../assets/contactUsShortcut.jpg";
+
 import ContactCard from '../../components/ContactCard';
 import data from "../../data/bodyContent.json";
 
@@ -67,15 +70,31 @@ export default function Home() {
                 {data.Employees.map(i => <ContactCard firstName={i.firstName} lastName={i.lastName} />)}
             </div> */}
             <div class="white-page">
-                <section class="white-body">
-                    <div class="white-body-text">
-                        <h2>Lee Wroxton</h2>
-                        <div class="white-body-bar"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <br></br>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <section class="shortcut-white-body">
+                    <div class="gallery-shortcut">
+                        <div class="hover-shortcuts">
+                            <img class="gallery-shortcut-image" src={galleryShortcut} alt="lgo" />
+                            <div class="shortcuts-hover-overlay"></div>
+
+                            </div>
+                            <div class="white-shortcut-body-text">
+                                <h2>Gallery</h2>
+                                <div class="shortcut-body-bar"></div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
                     </div>
-                    <img class="white-body-image" src={hydrangeaCloseUp} alt="lgo" />
+
+
+
+                    <div class="contact-shortcut">
+                        <img class="contact-shortcut-image" src={contactUsShortcut} alt="lgo" />
+
+                        <div class="white-shortcut-body-text">
+                            <h2>Contact</h2>
+                            <div class="shortcut-body-bar"></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
 
                 </section>
             </div>

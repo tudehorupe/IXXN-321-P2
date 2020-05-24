@@ -35,7 +35,49 @@ export default function Gallery() {
             </div>
 
 
+
+
+
             <div class="gallery-white-page">
+                <section class="gallery-white-body">
+                    <div class="gallery-shortcut">
+
+                            <div class="gallery-body-text">
+                                <h2>Scroll to view</h2>
+                                <div class="white-body-bar"></div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                            <div class="this">
+                            <img class="gallery-image" src={paleRoses} alt="lgo" />
+                            <div class="gallery-hover-overlay"></div>
+                            </div>
+
+                            <div class="this">
+                            <img class="gallery-image" src={paleRoses} alt="lgo" />
+                            <div class="gallery-hover-overlay"></div>
+                            </div>
+
+                            <img class="gallery-image" src={paleRoses} alt="lgo" />
+
+                            
+                    </div>
+
+
+
+                    <div class="contact-shortcut">
+                        <img class="gallery-image" src={paleRoses} alt="lgo" />
+                        <img class="gallery-image" src={paleRoses} alt="lgo" />
+                        <img class="gallery-image" src={paleRoses} alt="lgo" />
+
+
+
+
+                    </div>
+
+                </section>
+            </div>
+
+            {/* <div class="gallery-white-page">
                 <section class="gallery-body">
                     <div class="white-body-text">
                         <h2>Scroll to view</h2>
@@ -45,12 +87,10 @@ export default function Gallery() {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                     <img class="gallery-body-image" src={paleRoses} alt="lgo" />
-                    {/* <img class="white-body-image" src={paleRoses} alt="lgo" />
-                    <img class="white-body-image" src={paleRoses} alt="lgo" /> */}
 
 
                 </section>
-            </div>
+            </div> */}
             
             
 
