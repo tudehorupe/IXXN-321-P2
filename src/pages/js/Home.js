@@ -18,6 +18,7 @@ export default function Home() {
 
             <div class="landing-section">
 
+
                 <section class="home-landing">
                     <div class="home-hero">
                         <img class="home-image" src={hydrangeaCloseUp} alt="lgo" width="400" height="300" />
@@ -34,12 +35,12 @@ export default function Home() {
                         <h1>Lee Wroxton</h1>
                     </div>
                 </div> */}
-
-
-
-
             </div>
 
+
+
+
+            {/* <section id="link-down-page"></section> */}
 
             <div class="white-page">
                 <div class="red-vertical-line"></div>

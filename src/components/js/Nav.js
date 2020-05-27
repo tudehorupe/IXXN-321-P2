@@ -6,6 +6,8 @@ import "../css/Nav.css";
 
 import fb from "../../assets/fb-logo.svg";
 import ig from "../../assets/ig.svg";
+import downArrow from "../../assets/down-arrow.svg";
+
 
 export default function Nav() {
     return (
@@ -18,7 +20,14 @@ export default function Nav() {
             <NavLink to="/Contact" className="contact-link link">Contact</NavLink>
         </div>
 
+
+
         <div class="social-links">
+
+            <div class="link-down-page">
+                <a href="#link-down-page"><img src={downArrow} alt="Arrow pointing down the page" /></a>
+                {/* <a href="#top-link" class="our-portfolio-link"> <img src={footer} alt="Logo" /></a> */}
+            </div>
             <a href="https://www.facebook.com/" target="_blank"><img src={fb} alt="Facebook Logo" /></a>
             <a href="https://www.instagram.com/" target="_blank"> <img src={ig} alt="Instagram Logo" /></a>
 {/* 

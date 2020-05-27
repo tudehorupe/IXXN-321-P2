@@ -79,3 +79,23 @@
     padding: 0;
     margin:  0 1vw;
   }
+
+
+  .link-down-page{
+      margin-right: 36vw;
+      z-index: 1;
+  }
+
+
+  .link-down-page img{
+    width: 3vh;
+    height: auto;
+}
+
+
+#link-down-page{
+    position: absolute;
+    top: 100vh;
+    /* margin-top: 100vh; */
+    background-color: red;
+}

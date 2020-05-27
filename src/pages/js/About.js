@@ -3,6 +3,8 @@ import '../css/About.css';
 import hydrangeaInField from "../../assets/hydrangeaInField.jpg";
 import ContactCard from '../../components/ContactCard';
 
+import data from "../../data/bodyContent.json";
+
 
 
 export default function Home() {
@@ -58,11 +60,19 @@ export default function Home() {
                 <img class="about-image" src={hydrangeaInField} alt="lgo" width="400" height="300" />
 
                     <div class="about-title">
-                        <h1>About</h1>
+                        <h1>Abodut</h1>
                     </div>
 
             </div>
             </div>
+
+{/* 
+                        <div class="white-page">
+                <h3>quote</h3>
+                <ContactCard />
+
+                {data.GreenSection.map(i => <ContactCard userImg={i.userImg} lastName={i.lastName} />)}
+            </div> */}
 
             
 

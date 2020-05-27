@@ -36,11 +36,12 @@ export default function Gallery() {
 
 
 
+            {/* <div class="white-page"> */}
 
 
             <div class="gallery-white-page">
                 <section class="gallery-white-body">
-                    <div class="gallery-shortcut">
+                    <div class="left-gallery">
 
                             <div class="gallery-body-text">
                                 <h2>Scroll to view</h2>
@@ -64,7 +65,7 @@ export default function Gallery() {
 
 
 
-                    <div class="contact-shortcut">
+                    <div class="right-gallery">
                         <img class="gallery-image" src={paleRoses} alt="lgo" />
                         <img class="gallery-image" src={paleRoses} alt="lgo" />
                         <img class="gallery-image" src={paleRoses} alt="lgo" />
