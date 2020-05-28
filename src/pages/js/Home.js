@@ -1,6 +1,8 @@
 import React from 'react';
 import '../css/Home.css';
 import hydrangeaCloseUp from "../../assets/hydrangeaCloseUp.jpg";
+import inShopOne from "../../assets/inShopOne.jpg";
+
 import galleryShortcut from "../../assets/pinkWhiteRoses.jpg";
 import contactUsShortcut from "../../assets/contactUsShortcut.jpg";
 
@@ -16,23 +18,34 @@ export default function Home() {
          <div className="home-page">
 
 
+
+
+
             <div class="landing-section">
 
+            <section class="home-landing">
 
+                        <img class="home-image" src={hydrangeaCloseUp} alt="lgo" width="400" height="300" />
+
+                        <h1 class="home-page-name">Lee Wroxton</h1>
+
+                </section>
+
+{/* 
                 <section class="home-landing">
                     <div class="home-hero">
-                        <img class="home-image" src={hydrangeaCloseUp} alt="lgo" width="400" height="300" />
+                        <img class="home-image" src={hydrangeaCloseUp} alt="lgo" width="400" height="auto" />
                         <h1 class="home-page-name">Lee Wroxton</h1>
                         <div class="slider"></div>
                     </div>
-                </section>
+                </section> */}
 
                 {/* <div class="landing-image-title">
 
                     <img class="home-landing-image" src={assets} alt="lgo" />
 
                     <div class="title">
-                        <h1>Lee Wroxton</h1>
+                         <h1>Lee Wroxton</h1>
                     </div>
                 </div> */}
             </div>
@@ -52,7 +65,7 @@ export default function Home() {
             
             <div class="green-page">
                 <section class="green-body">
-                    <img class="green-body-image" src={hydrangeaCloseUp} alt="lgo" />
+                    <img class="green-body-image" src={inShopOne} alt="lgo" />
                     <div class="green-body-text">
                         <h2>Lee Wroxton</h2>
                         <div class="green-body-bar"></div>

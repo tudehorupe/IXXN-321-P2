@@ -4,6 +4,8 @@ import contactLanding from "../../assets/contactLanding.jpg";
 
 import hydrangeaInField from "../../assets/hydrangeaInField.jpg";
 import arrowtownMap from "../../assets/arrowtownMap.jpg";
+import shopFront from "../../assets/shopFront.jpg";
+
 import redFb from "../../assets/redFb.svg";
 import hydrangeaCloseUp from "../../assets/hydrangeaCloseUp.jpg";
 
@@ -62,13 +64,47 @@ export default function Home() {
             
             <div class="green-page">
                 <section class="green-body">
-                    <img class="green-body-image" src={hydrangeaCloseUp} alt="lgo" />
+                    <img class="green-body-image" src={shopFront} alt="lgo" />
                     <div class="green-body-text">
-                        <h2>Lee Wroxton</h2>
+                        <h2>Hours</h2>
                         <div class="green-body-bar"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <br></br>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <div class="contact-hours">
+                            <p class="contact-day">Monday</p>
+                            <p class="contact-spacer">-</p>
+                            <p class="contact-time">8:00 am - 5:00 pm</p>
+                        </div>
+                        <div class="contact-hours">
+                            <p class="contact-day">Tuesday</p>
+                            <p class="contact-spacer">-</p>
+                            <p class="contact-time">8:00 am - 5:00 pm</p>
+                        </div>
+                        <div class="contact-hours">
+                            <p class="contact-day">Wednesday</p>
+                            <p class="contact-spacer">-</p>
+                            <p class="contact-time">8:00 am - 5:00 pm</p>
+                        </div>
+                        <div class="contact-hours">
+                            <p class="contact-day">Thursday</p>
+                            <p class="contact-spacer">-</p>
+                            <p class="contact-time">8:00 am - 5:00 pm</p>
+                        </div>
+                        <div class="contact-hours">
+                            <p class="contact-day">Friday</p>
+                            <p class="contact-spacer">-</p>
+                            <p class="contact-time">8:00 am - 5:00 pm</p>
+                        </div>
+                        <div class="contact-hours">
+                            <p class="contact-day">Saturday</p>
+                            <p class="contact-spacer">-</p>
+                            <p class="contact-time">8:00 am - 4:00 pm</p>
+                        </div>
+                        <div class="contact-hours">
+                            <p class="contact-day">Sunday</p>
+                            <p class="contact-spacer">-</p>
+                            <p class="contact-time">closed</p>
+                        </div>
+
+                        
                     </div>
                 </section>
             </div>

@@ -1,6 +1,7 @@
 .landing-section, .green-page{
   background-color: #00300B;
   height: 100vh;
+  
 }
 
 .green-page, .white-page{
@@ -8,48 +9,85 @@
 }
 
 .home-landing-image{
-  width: 20vw;
+  /* width: 20vw; */
 
 }
 
 
 .home-landing{
-  display: flex;
-  max-width: 100%;
-  margin-left: 37.5vw;
-  margin-right: auto;
-  background-color: red;
-
-  display: flex;
-    justify-content: center;
+  /* display: flex;
+  position: relative;
+  padding-top: 10vh; */
+  padding-top: 15vh;
+  position: relative;
+  text-align: center;
+  /* background-color: red; */
+  /* position: relative; */
+  text-align: center;
+  /* color: white; */
 }
 
-.home-hero{
-  height: 60%;
-  width: 100%;
-  
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  background-color: red;
-
-
-
-}
 
 .home-hero img{
-  width: 25vw;
+  top: 0vh;
+  
+}
+
+.home-image{
+  /* position: relative; */
+  width: 30vw;
+  height: 70vh;
+
+  object-fit: cover;
+
+}
+
+.home-page-name{
+  /* height: 60%; */
+  width: 100%;
+
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 600%;
+  color: #F9F9F9;
+}
+
+.home-landing{
+  /* display: flex;
+  max-width: 50%; */
+  /* margin-left: 37.5vw; */
+  /* margin-left: auto;
+
+  margin-right: auto;
+  background-color: red;
+
+  display: flex;
+    justify-content: center; */
+    /* background-color: orange; */
+    /* width: 50%; */
+    /* margin-left: auto;
+    margin-right: auto; */
+
+
+}
+
+
+
+.home-hero img{
+  /* width: 25vw;
   height: 70vh;
   object-fit: cover;
   margin-left: auto;
   margin-right: auto;
   top: 15vh;
-  position: absolute;
+  position: absolute; */
 
 }
 
 .home-page-name{
-  position: absolute;
+  /* position: absolute;
   top: 35vh;
 
 
@@ -58,7 +96,7 @@
   left: 50%;
   top: 70%;
   transform: translate(-50%, -50%);
-  color: #F9F9F9;
+  color: #F9F9F9; */
   /* animation: 0.5s ease 2.5s normal forwards 1 fadein;
   opacity:0; */
 
@@ -332,3 +370,56 @@ margin-right: 5vw;
   opacity: 0.2;
 
 }
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+
+  .home-page-name{
+    font-size: 500%;
+  }
+
+  .home-image{
+    width: 48vw;
+  }
+
+
+
+
+
+
+
+
+  .quote{
+    font-size: 110%;
+  }
+  
+  .quote-mark{
+    font-size: 500%;
+    margin-left: 22vw;
+  }
+  
+  .quote-text{
+    max-width: 45%;
+  }
+
+}
+
+
+@media (max-width: 426px){
+
+  .home-page-name{
+    font-size: 350%;
+  }
+
+  .home-image{
+    width: 65vw;
+  }
+
+}
+

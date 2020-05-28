@@ -2,11 +2,11 @@ import React from 'react';
 import '../css/Gallery.css';
 import galleryLanding from "../../assets/galleryLanding.jpg";
 import paleRoses from "../../assets/paleRoses.jpg";
-// import hydrangeaCloseUp from "../../assets/hydrangeaCloseUp.jpg";
-// import galleryLanding from "../../assets/galleryLanding.jpg";
-// import colourfulBunch from "../../assets/colourfulBunch.jpg";
-// import pinkBud from "../../assets/pinkBud.jpg";
-// import galleryLanding from "../../assets/galleryLanding.jpg";
+import hydrangeaCloseUp from "../../assets/hydrangeaCloseUp.jpg";
+import pinkWhiteRoses from "../../assets/pinkWhiteRoses.jpg";
+import colouredBunch from "../../assets/colouredBunch.jpg";
+import pinkBuds from "../../assets/pinkBuds.jpg";
+import driedRoses from "../../assets/driedRoses.jpg";
 
 
 import ContactCard from '../../components/ContactCard';
@@ -49,16 +49,16 @@ export default function Gallery() {
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </div>
                             <div class="this">
-                            <img class="gallery-image" src={paleRoses} alt="lgo" />
+                            <img class="gallery-image" src={hydrangeaCloseUp} alt="lgo" />
                             <div class="gallery-hover-overlay"></div>
                             </div>
 
                             <div class="this">
-                            <img class="gallery-image" src={paleRoses} alt="lgo" />
+                            <img class="gallery-image" src={colouredBunch} alt="lgo" />
                             <div class="gallery-hover-overlay"></div>
                             </div>
 
-                            <img class="gallery-image" src={paleRoses} alt="lgo" />
+                            <img class="gallery-image" src={driedRoses} alt="lgo" />
 
                             
                     </div>
@@ -67,8 +67,8 @@ export default function Gallery() {
 
                     <div class="right-gallery">
                         <img class="gallery-image" src={paleRoses} alt="lgo" />
-                        <img class="gallery-image" src={paleRoses} alt="lgo" />
-                        <img class="gallery-image" src={paleRoses} alt="lgo" />
+                        <img class="gallery-image" src={pinkWhiteRoses} alt="lgo" />
+                        <img class="gallery-image" src={pinkBuds} alt="lgo" />
 
 
 

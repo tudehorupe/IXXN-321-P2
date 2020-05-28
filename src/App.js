@@ -10,6 +10,10 @@ import Contact from "./pages/js/Contact";
 
 
 import Nav from "./components/js/Nav";
+import NavBar from "./components/js/NavBar";
+import SocialLinks from "./components/js/SocialLinks";
+
+
 import Footer from "./components/js/Footer";
 import randomShapes from "./components/js/randomShapes";
 
@@ -27,6 +31,8 @@ function App() {
 
       <Router>
       <Nav />
+      <NavBar />
+      <SocialLinks />
 
       {/* <Route path="/Pageone" component={Page1} /> */}
 

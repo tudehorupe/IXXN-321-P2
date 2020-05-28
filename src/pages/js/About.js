@@ -1,6 +1,11 @@
 import React from 'react';
 import '../css/About.css';
 import hydrangeaInField from "../../assets/hydrangeaInField.jpg";
+import inShopTwo from "../../assets/inShopTwo.jpg";
+import inShopThree from "../../assets/inShopThree.jpg";
+import pinkBuds from "../../assets/pinkBuds.jpg";
+
+
 import ContactCard from '../../components/ContactCard';
 
 import data from "../../data/bodyContent.json";
@@ -38,33 +43,38 @@ export default function Home() {
                         <br></br>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
-                    <img class="white-body-image" src={hydrangeaInField} alt="lgo" />
+                    <img class="white-body-image" src={inShopTwo} alt="lgo" />
 
                 </section>
             </div>
             
             <div class="green-page">
-                <img class="home-landing-image" src={hydrangeaInField} alt="lgo" />
-                <h2>Lee Wroxton</h2>
-                <div class="bar"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <section class="green-body">
+                    <img class="green-body-image" src={inShopThree} alt="lgo" />
+                    <div class="green-body-text">
+                        <h2>Our Ethics</h2>
+                        <div class="green-body-bar"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <br></br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </section>
             </div>
-
 
             <div class="white-page">
-                <h3>quote</h3>
-                
-
-                <div class="about-landing-section">
-                <img class="about-image" src={hydrangeaInField} alt="lgo" width="400" height="300" />
-
-                    <div class="about-title">
-                        <h1>Abodut</h1>
+                <section class="white-body">
+                    <div class="white-body-text">
+                        <h2>What we do</h2>
+                        <div class="white-body-bar"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <br></br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
+                    <img class="white-body-image" src={pinkBuds} alt="lgo" />
 
+                </section>
             </div>
-            </div>
+
 
 {/* 
                         <div class="white-page">
