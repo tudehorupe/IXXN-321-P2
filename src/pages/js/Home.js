@@ -1,5 +1,7 @@
 import React from 'react';
 import '../css/Home.css';
+import { NavLink } from 'react-router-dom';
+
 import hydrangeaCloseUp from "../../assets/hydrangeaCloseUp.jpg";
 import inShopOne from "../../assets/inShopOne.jpg";
 
@@ -55,7 +57,7 @@ export default function Home() {
 
             {/* <section id="link-down-page"></section> */}
 
-            <div class="white-page">
+            <div class="quote-white-page">
                 <div class="red-vertical-line"></div>
                 <div class="quote">
                     <h1 class="quote-mark">“</h1>
@@ -63,7 +65,7 @@ export default function Home() {
                 </div>
             </div>
             
-            <div class="green-page">
+            <div class="home-green-page">
                 <section class="green-body">
                     <img class="green-body-image" src={inShopOne} alt="lgo" />
                     <div class="green-body-text">
@@ -83,7 +85,7 @@ export default function Home() {
 
                 {data.Employees.map(i => <ContactCard firstName={i.firstName} lastName={i.lastName} />)}
             </div> */}
-            <div class="white-page">
+            <div class="shortcuts-white-page">
                 <section class="shortcut-white-body">
                     <div class="gallery-shortcut">
                         <div class="hover-shortcuts">
@@ -95,6 +97,8 @@ export default function Home() {
                                 <h2>Gallery</h2>
                                 <div class="shortcut-body-bar"></div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <NavLink to="/Gallery" href="#top-link" className="shortcut-button-link">View more</NavLink>
+
                             </div>
                     </div>
 
@@ -107,6 +111,8 @@ export default function Home() {
                             <h2>Contact</h2>
                             <div class="shortcut-body-bar"></div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <NavLink to="/Contact" href="#top-link" className="shortcut-button-link">View more</NavLink>
+
                         </div>
                     </div>
 

@@ -4,9 +4,32 @@
   box-sizing: border-box;
 }
 
-html{
+body{
+  background-color: #F9F9F9;
+}
+
+/* html{
+    scroll-behavior: auto;
+  } */
+
+.navigation{
+    scroll-behavior: auto;
+  }
+
+
+#smooth{
   scroll-behavior: smooth;
 }
+
+.footer{
+  scroll-behavior: smooth;
+}
+
+href{
+  scroll-behavior: smooth;
+}
+
+
 
 h1, h3, a{
   font-family: 'Yeseva One', cursive;
@@ -52,3 +75,25 @@ a{
   background-color: #00300B;
   height: 50vh;
 } */
+
+
+
+
+.link-down-page{
+
+  scroll-behavior: smooth;
+
+}
+
+
+.link-down-page img{
+
+scroll-behavior: smooth;
+
+}
+
+
+#link-down-page{
+scroll-behavior: smooth;
+
+}

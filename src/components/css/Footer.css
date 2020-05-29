@@ -10,11 +10,15 @@
 
     background-color: #F9F9F9;
     /* background-color: red; */
-    
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+
 }
 
 
 .our-portfolio-link{
+    display: flex;
 	border: none;
     text-align: center;
     vertical-align: middle;
@@ -24,11 +28,10 @@
     width: 10vh;
     height: 10vh;
     border-radius: 50%;
-    /* background-color: red; */
     color: #F9F9F9;
     margin-top: 10vh;
     margin-bottom: 10vh;
-    margin-left: 47.5vw;
+    /* margin-left: 47.5vw; */
 
 
     /* transform: rotate(270deg); */

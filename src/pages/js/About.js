@@ -34,7 +34,7 @@ export default function Home() {
             </div>
 
 
-            <div class="white-page">
+            <div class="about-white-page">
                 <section class="white-body">
                     <div class="white-body-text">
                         <h2>Who we are</h2>
@@ -48,7 +48,7 @@ export default function Home() {
                 </section>
             </div>
             
-            <div class="green-page">
+            <div class="home-green-page">
                 <section class="green-body">
                     <img class="green-body-image" src={inShopThree} alt="lgo" />
                     <div class="green-body-text">
@@ -61,7 +61,7 @@ export default function Home() {
                 </section>
             </div>
 
-            <div class="white-page">
+            <div class="about-white-page">
                 <section class="white-body">
                     <div class="white-body-text">
                         <h2>What we do</h2>

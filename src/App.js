@@ -32,8 +32,9 @@ function App() {
       <Router>
       <Nav />
       <NavBar />
+      <div id="smooth">
       <SocialLinks />
-
+      </div>
       {/* <Route path="/Pageone" component={Page1} /> */}
 
 

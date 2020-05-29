@@ -1,12 +1,14 @@
-.landing-section, .green-page{
+.landing-section, .green-page, .home-green-page, .contact-green-page{
   background-color: #00300B;
   height: 100vh;
+  color: #F9F9F9;
   
 }
 
-.green-page, .white-page{
+.green-page, .home-green-page, .contact-green-page, .white-page, .shortcuts-white-page, .quote-white-page, .about-white-page, .contact-white-page, .contact-white-page{
   position: relative;
 }
+
 
 .home-landing-image{
   /* width: 20vw; */
@@ -108,11 +110,11 @@
 } */
 
 
-.green-page{
+.green-page .home-green-page, .contact-green-page{
   color: #F9F9F9;
 }
 
-.white-page{
+.white-page, .about-white-page, .contact-white-page{
   color: #B83308;
   /* background-color: chocolate; */
 }
@@ -172,10 +174,13 @@ margin-right: 5vw;
 
 .green-body-bar{
   background-color: #F9F9F9;
+  /* background-color: salmon; */
+
 }
 
 .white-body-bar, .shortcut-body-bar{
   background-color: #B83308;
+  
 }
 
 
@@ -241,9 +246,9 @@ margin-right: 5vw;
   height: 100vh;
   margin-left: 50%;
 }
+ 
 
-
-.white-page{
+.white-page, .quote-white-page, .shortcuts-white-page, .about-white-page, .contact-white-page{
   background-color: #F9F9F9;
   height: 100vh;
   color: #B83308;
@@ -343,9 +348,48 @@ margin-right: 5vw;
   margin: 2vh 0;
 }
 
-.white-shortcut-body-text h2{
+
+.white-shortcut-body-text{
+  margin-bottom: 12vh;
+  /* background-color: blue; */
+}
+.white-shortcut-body-text-bottom{
+
+
+  /* background-color: red; */
+}
+
+.shortcuts-white-page{
+  /* background-color: aqua; */
+  /* margin-bottom: 2vh; */
+}
+
+.white-shortcut-body-text h2, .white-shortcut-body-text-bottom h2{
   font-size: 250%;
 }
+.white-shortcut-body-text p, .white-shortcut-body-text-bottom p{
+  margin-bottom: 3vh;
+}
+
+.shortcut-button-link{
+  background-color: #B83308;
+  color: #F9F9F9;
+  padding: 1% 4%;
+  /* padding-bottom: -20vh; */
+
+}
+
+.shortcut-button-link:hover{
+  text-decoration: underline;
+
+}
+
+
+.shortcut-text-link{
+  color: #B83308;
+  font-size: 250%;
+}
+
 
 .hover-shortcuts{
   position: relative;
@@ -367,7 +411,7 @@ margin-right: 5vw;
 }
 
 .hover-shortcuts:hover .shortcuts-hover-overlay {
-  opacity: 0.2;
+  opacity: 0.15;
 
 }
 
@@ -408,18 +452,255 @@ margin-right: 5vw;
     max-width: 45%;
   }
 
+
+
+
+  .green-body, .white-body{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    /* color: #F9F9F9; */
+    /* background-color: chocolate; */
+  
+    height: 120vh;
+    /* width: 100%; */
+  
+  
+  
+    position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%)
+  
+  }
+
+
+
+
+
+
+
+  .green-body-image, .white-body-image, .white-links-body-image{
+    width: 100%;
+    height: 20vh;
+  
+    object-fit: cover;
+  
+  }
+  
+  .green-body-image, .white-body-text, .contact-white-body-text{
+  margin-right: 0vw;
+  }
+  
+  .green-body-text, .white-body-image{
+    margin-left: 0vw;
+  
+  }
+  
+  
+  .green-body-text h2, .white-body-text h2, .contact-white-body-text h2{
+    font-size: 300%;
+  
+  }
+  
+  
+  .green-body-bar, .white-body-bar{
+    width: 8vw;
+    height: 2vh;
+    margin: 3vh 0;
+    /* background-color: salmon; */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .shortcut-white-body{
+    display: flex;
+    flex-direction: column;
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    /* color: #F9F9F9; */
+  
+    height: 80vh;
+    /* width: 100%; */
+    /* background-color: pink; */
+  
+  
+  
+    position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+      /* overflow: hidden; */
+  }
+  
+  .gallery-shortcut{
+    flex: 1;
+  
+    /* background-color: orangered; */
+    margin-right: 0vw;
+  
+  
+  }
+  
+  .contact-shortcut{
+    flex: 1;
+    /* background-color: orange; */
+    margin-left: 0vw;
+  
+  
+  }
+  
+  .shortcut-body-image{
+    flex: 1;
+  }
+  
+  .gallery-shortcut-image, .contact-shortcut-image{
+    width: 100%;
+    height: 60vh;
+    background-color: #0272d0;
+  
+  
+    object-fit: cover;
+  
+  }
+  .gallery-shortcut-image img:hover, .contact-shortcut-image:hover img{
+  
+    background-color: #0261b0;
+    opacity: 0.8;
+  
+  
+  }
+
+
+
+
+
+
+
+.gallery-shortcut{
+  padding-bottom: 20vh;
+}
+
+
+
+
+.home-green-page{
+    height: 135vh;
+    
+  }
+
+  .contact-green-page{
+    height: 135vh;
+
+  }
+
+.shortcuts-white-page{
+    height: 95vh;
+    margin-bottom: 100vh;
+  }
+
+
+
+  .about-white-page{
+    height: 130vh;
+
+  }
+
+  .contact-white-page{
+    height: 135vh;
+
+  }
+
+
+
+
+
+  .white-shortcut-body-text{
+    margin-bottom: -15vh;
+    /* background-color: green; */
+  }
+
+
+
+
+
+
+  .white-page{
+    height: 90vh;
+    margin-bottom: -5vh;
+
+    /* background-color: red; */
+  }
+
+  .white-body :nth-child(1) { order: 2; }
+
+  .white-body :nth-child(2) { order: 1; }
+
+
 }
 
 
 @media (max-width: 426px){
 
   .home-page-name{
-    font-size: 350%;
+    font-size: 380%;
   }
 
   .home-image{
     width: 65vw;
   }
 
+  .quote{
+    font-size: 100%;
+  }
+  
+  .quote-mark{
+    font-size: 500%;
+    margin-left: 7vw;
+  }
+  
+  .quote-text{
+    max-width: 70%;
+  }
+
+  .shortcuts-white-page{
+    height: 200vh;
+
+  }
+
+
+
+  .shortcuts-white-page{
+    /* background-color: pink; */
+    height: 200%;
+    margin-bottom: 20vh;
+  }
+  .shortcuts-white-page{
+    height: 400vh;
+  }
+
+
+
+  .shortcuts-white-page{
+    /* background-color: orange; */
+    margin-bottom: 200vh;
+    height: 5000vh;
+  }
 }
 

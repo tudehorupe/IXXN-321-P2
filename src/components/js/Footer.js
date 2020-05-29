@@ -15,6 +15,9 @@ export default function Footer() {
 
 
 
+
+
+
             {/* <Link to="/home" className="return-top link">Home</Link>
             <Link to="/pageone" className="about-link link">About</Link>
             <Link to="/welcome" className="gallery-link link">Gallery</Link>

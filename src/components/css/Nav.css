@@ -133,3 +133,11 @@
     /* margin-top: 100vh; */
     background-color: red;
 }
+
+
+@media (max-width: 768px){
+    .social-links a {
+        padding: 0;
+        margin:  0 1.7vw;
+      }
+}

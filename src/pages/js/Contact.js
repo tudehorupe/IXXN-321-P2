@@ -7,6 +7,8 @@ import arrowtownMap from "../../assets/arrowtownMap.jpg";
 import shopFront from "../../assets/shopFront.jpg";
 
 import redFb from "../../assets/redFb.svg";
+import redIg from "../../assets/redIg.svg";
+
 import hydrangeaCloseUp from "../../assets/hydrangeaCloseUp.jpg";
 
 
@@ -27,7 +29,7 @@ export default function Home() {
             <div class="landing-section">
 
 
-            <section class="about-landing">
+            <section class="pages-landing">
                 <div class="hero">
                     <img class="about-image" src={contactLanding} alt="lgo" width="400" height="300" />
                     <h1 class="page-name">Contact</h1>
@@ -38,7 +40,7 @@ export default function Home() {
             </div>
 
 
-            <div class="white-page">
+            <div class="contact-white-page">
                 <section class="white-body">
                     <div class="contact-white-body-text">
                         <h2>Talk to us</h2>
@@ -62,7 +64,7 @@ export default function Home() {
             </div>
 
             
-            <div class="green-page">
+            <div class="contact-green-page">
                 <section class="green-body">
                     <img class="green-body-image" src={shopFront} alt="lgo" />
                     <div class="green-body-text">
@@ -122,7 +124,7 @@ export default function Home() {
                         <p>Facebook</p>
                     </div>
                     <div>
-                        <a href="https://www.instagram.com/" target="_blank"> <img src={redFb} alt="Instagram Logo" /></a>
+                        <a href="https://www.instagram.com/" target="_blank"> <img src={redIg} alt="Instagram Logo" /></a>
                         <p>Instagram</p>
 
                     </div>

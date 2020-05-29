@@ -246,7 +246,7 @@
     font-size: 150%;
     /* background-color: orange; */
     /* flex: 3; */
-    margin-left: -7vw;
+    margin-left: -3.5vw;
 
 
 
@@ -267,4 +267,21 @@
   .nav-container{
     flex: 1;
     /* background-color: pink; */
+  }
+
+
+  @media (max-width: 426px){
+
+    .lee-wroxton{
+      z-index: 200;
+      /* display: inline-block; */
+      font-size: 150%;
+      /* background-color: orange; */
+      /* flex: 3; */
+      margin-left: -10vw;
+    }
+
+    .checkbox-wrapper {
+      right: 3vw;
+    }
   }
