@@ -8,12 +8,18 @@ body{
   background-color: #F9F9F9;
 }
 
+<<<<<<< HEAD
 html{
     scroll-behavior: smooth;
   }
+=======
+ html{
+    scroll-behavior: smooth;
+  } 
+>>>>>>> 7994b6957522a0155185ec320d14eac3b6a11cbe
 
 .navigation{
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
   }
 
 
@@ -96,4 +102,24 @@ scroll-behavior: smooth;
 #link-down-page{
 scroll-behavior: smooth;
 
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00300B; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00500B;  
 }
