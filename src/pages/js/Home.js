@@ -1,39 +1,34 @@
-import React from 'react';
-import '../css/Home.css';
-import { NavLink } from 'react-router-dom';
+import React from "react";
+import "../css/Home.css";
+import { NavLink } from "react-router-dom";
 
+import RandomShape from "../../components/js/randomShapes";
 import hydrangeaCloseUp from "../../assets/hydrangeaCloseUp.jpg";
 import inShopOne from "../../assets/inShopOne.jpg";
 
 import galleryShortcut from "../../assets/pinkWhiteRoses.jpg";
 import contactUsShortcut from "../../assets/contactUsShortcut.jpg";
 
-import ContactCard from '../../components/ContactCard';
+import ContactCard from "../../components/ContactCard";
 import data from "../../data/bodyContent.json";
 
-
-
 export default function Home() {
-    
-    
-    return (
-         <div className="home-page">
+  return (
+    <div className="home-page">
+      <div class="landing-section">
+        <section class="home-landing">
+          <img
+            class="home-image"
+            src={hydrangeaCloseUp}
+            alt="lgo"
+            width="400"
+            height="300"
+          />
 
+          <h1 class="home-page-name">Lee Wroxton</h1>
+        </section>
 
-
-
-
-            <div class="landing-section">
-
-            <section class="home-landing">
-
-                        <img class="home-image" src={hydrangeaCloseUp} alt="lgo" width="400" height="300" />
-
-                        <h1 class="home-page-name">Lee Wroxton</h1>
-
-                </section>
-
-{/* 
+        {/* 
                 <section class="home-landing">
                     <div class="home-hero">
                         <img class="home-image" src={hydrangeaCloseUp} alt="lgo" width="400" height="auto" />
@@ -42,7 +37,7 @@ export default function Home() {
                     </div>
                 </section> */}
 
-                {/* <div class="landing-image-title">
+        {/* <div class="landing-image-title">
 
                     <img class="home-landing-image" src={assets} alt="lgo" />
 
@@ -50,80 +45,109 @@ export default function Home() {
                          <h1>Lee Wroxton</h1>
                     </div>
                 </div> */}
-            </div>
+      </div>
 
+      {/* <section id="link-down-page"></section> */}
 
+      <div class="quote-white-page">
+        <RandomShape top="-30px" left="70%" shape={1} />
+        <RandomShape top="120px" left="20%" shape={2} />
+        <RandomShape bottom="-10%" left="40%" shape={3} />
+        <div class="red-vertical-line"></div>
+        <div class="quote">
+          <h1 class="quote-mark">“</h1>
+          <h3 class="quote-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </h3>
+        </div>
+      </div>
 
+      <div class="home-green-page">
+        <section class="green-body">
+          <img class="green-body-image" src={inShopOne} alt="lgo" />
+          <div class="green-body-text">
+            <h2>Lee Wroxton</h2>
+            <div class="green-body-bar"></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <br></br>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </section>
+      </div>
 
-            {/* <section id="link-down-page"></section> */}
-
-            <div class="quote-white-page">
-                <div class="red-vertical-line"></div>
-                <div class="quote">
-                    <h1 class="quote-mark">“</h1>
-                    <h3 class="quote-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
-                </div>
-            </div>
-            
-            <div class="home-green-page">
-                <section class="green-body">
-                    <img class="green-body-image" src={inShopOne} alt="lgo" />
-                    <div class="green-body-text">
-                        <h2>Lee Wroxton</h2>
-                        <div class="green-body-bar"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <br></br>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </section>
-            </div>
-
-
-            {/* <div class="white-page">
+      {/* <div class="white-page">
                 <h3>quote</h3>
                 <ContactCard />
 
                 {data.Employees.map(i => <ContactCard firstName={i.firstName} lastName={i.lastName} />)}
             </div> */}
-            <div class="shortcuts-white-page">
-                <section class="shortcut-white-body">
-                    <div class="gallery-shortcut">
-                        <div class="hover-shortcuts">
-                            <img class="gallery-shortcut-image" src={galleryShortcut} alt="lgo" />
-                            <div class="shortcuts-hover-overlay"></div>
-
-                            </div>
-                            <div class="white-shortcut-body-text">
-                                <h2>Gallery</h2>
-                                <div class="shortcut-body-bar"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <NavLink to="/Gallery" href="#top-link" className="shortcut-button-link">View more</NavLink>
-
-                            </div>
-                    </div>
-
-
-
-                    <div class="contact-shortcut">
-                        <img class="contact-shortcut-image" src={contactUsShortcut} alt="lgo" />
-
-                        <div class="white-shortcut-body-text">
-                            <h2>Contact</h2>
-                            <div class="shortcut-body-bar"></div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <NavLink to="/Contact" href="#top-link" className="shortcut-button-link">View more</NavLink>
-
-                        </div>
-                    </div>
-
-                </section>
+      <div class="shortcuts-white-page">
+        <section class="shortcut-white-body">
+          <div class="gallery-shortcut">
+            <div class="hover-shortcuts">
+              <img
+                class="gallery-shortcut-image"
+                src={galleryShortcut}
+                alt="lgo"
+              />
+              <div class="shortcuts-hover-overlay"></div>
             </div>
-
-            
-
-
+            <div class="white-shortcut-body-text">
+              <h2>Gallery</h2>
+              <div class="shortcut-body-bar"></div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <NavLink
+                to="/Gallery"
+                href="#top-link"
+                className="shortcut-button-link"
+              >
+                View more
+              </NavLink>
+            </div>
           </div>
-    )
 
-    
+          <div class="contact-shortcut">
+            <img
+              class="contact-shortcut-image"
+              src={contactUsShortcut}
+              alt="lgo"
+            />
+
+            <div class="white-shortcut-body-text">
+              <h2>Contact</h2>
+              <div class="shortcut-body-bar"></div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <NavLink
+                to="/Contact"
+                href="#top-link"
+                className="shortcut-button-link"
+              >
+                View more
+              </NavLink>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  );
 }

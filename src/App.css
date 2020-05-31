@@ -8,12 +8,12 @@ body{
   background-color: #F9F9F9;
 }
 
-/* html{
-    scroll-behavior: auto;
-  } */
+ html{
+    scroll-behavior: smooth;
+  } 
 
 .navigation{
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
   }
 
 
@@ -96,4 +96,24 @@ scroll-behavior: smooth;
 #link-down-page{
 scroll-behavior: smooth;
 
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00300B; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00500B;  
 }
