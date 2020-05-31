@@ -13,7 +13,12 @@ import downArrow from "../../assets/down-arrow.svg";
 export default function Nav() {
     return (
         <div className="navigation">
-            <DynamicScrollToTop />
+
+
+            {/* <DynamicScrollToTop /> */}
+
+
+
 
         <div class="navbar">
             <NavLink to="/home" href="#top-link" activeClassName="active" className="home-link link">Home</NavLink>

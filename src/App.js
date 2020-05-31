@@ -16,6 +16,8 @@ import SocialLinks from "./components/js/SocialLinks";
 
 import Footer from "./components/js/Footer";
 import randomShapes from "./components/js/randomShapes";
+import DynamicScrollToTop from "./components/js/DynamicScrollToTop";
+
 
 
 function App() {
@@ -29,7 +31,10 @@ function App() {
       <randomShapes />
 
 
+
       <Router>
+      {/* <DynamicScrollToTop /> */}
+
       <Nav />
       <NavBar />
       <div id="smooth">
@@ -38,7 +43,7 @@ function App() {
       {/* <Route path="/Pageone" component={Page1} /> */}
 
 
-      <Route path="/Home" component={Home} />
+      <Route path="/" component={Home} />
       <Route path="/About" component={About} />
       <Route path="/Gallery" component={Gallery} />
       <Route path="/Contact" component={Contact} />

@@ -309,3 +309,8 @@
   
   
   }
+
+
+  .about-page{
+    scroll-behavior: smooth;
+  }

@@ -8,9 +8,9 @@ body{
   background-color: #F9F9F9;
 }
 
-/* html{
-    scroll-behavior: auto;
-  } */
+html{
+    scroll-behavior: smooth;
+  }
 
 .navigation{
     scroll-behavior: auto;
