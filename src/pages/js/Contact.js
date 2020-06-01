@@ -1,50 +1,46 @@
 import React from 'react';
 import '../css/Contact.css';
-import contactLanding from "../../assets/contactLanding.jpg";
+import RandomShape from "../../components/js/randomShapes";
 
-import hydrangeaInField from "../../assets/hydrangeaInField.jpg";
+
+import contactLanding from "../../assets/contactLanding.jpg";
 import arrowtownMap from "../../assets/arrowtownMap.jpg";
 import shopFront from "../../assets/shopFront.jpg";
-
 import redFb from "../../assets/redFb.svg";
 import redIg from "../../assets/redIg.svg";
 
-import hydrangeaCloseUp from "../../assets/hydrangeaCloseUp.jpg";
-
-
-import ContactCard from '../../components/ContactCard';
-
-import data from "../../data/bodyContent.json";
-
-
-
 export default function Home() {
-    
     
     return (
          <div className="about-page">
 
+            <div className="landing-section">
+
+                <RandomShape top="80vh" left="85vw" shape={4} />
+                <RandomShape top="120vh" left="-10%" shape={3} />
+                <RandomShape top="195vh" left="90%" shape={1} />
+                <RandomShape top="270vh" left="3%" shape={4} />
+                <RandomShape top="365vh" left="-3%" shape={1} />
+                <RandomShape top="310vh" left="85%" shape={2} />
+                <RandomShape top="410vh" left="85%" shape={3} />
 
 
-            <div class="landing-section">
-
-
-            <section class="pages-landing">
-                <div class="hero">
-                    <img class="about-image" src={contactLanding} alt="lgo" width="400" height="300" />
-                    <h1 class="page-name">Contact</h1>
-				    <div class="slider"></div>
-                </div>
-            </section>
+                <section className="pages-landing">
+                    <div className="hero">
+                        <img className="about-image" src={contactLanding} alt="Close up of a bunch from Lee Wroxton" width="400" height="300" />
+                        <h1 className="page-name">Contact</h1>
+                        <div className="slider"></div>
+                    </div>
+                </section>
 
             </div>
 
 
-            <div class="contact-white-page">
-                <section class="white-body">
-                    <div class="contact-white-body-text">
+            <div className="contact-white-page">
+                <section className="white-body">
+                    <div className="contact-white-body-text">
                         <h2>Talk to us</h2>
-                        <div class="white-body-bar"></div>
+                        <div className="white-body-bar"></div>
                         <h3>Lee Wroxton</h3>
 
                         <br></br>
@@ -58,86 +54,76 @@ export default function Home() {
                         <p>+64 3 651 0280</p>
 
                     </div>
-                    <img class="white-body-image" src={arrowtownMap} alt="lgo" />
+                    <img className="white-body-image" src={arrowtownMap} alt="Map of where Lee Wroxton is in Arrowtown, Otago" />
 
                 </section>
             </div>
 
             
-            <div class="contact-green-page">
-                <section class="green-body">
-                    <img class="green-body-image" src={shopFront} alt="lgo" />
-                    <div class="green-body-text">
+            <div className="contact-green-page">
+                <section className="green-body">
+                    <img className="green-body-image" src={shopFront} alt="Shop front of Lee Wroxton with various bunches and bouquets out front" />
+                    <div className="green-body-text">
                         <h2>Hours</h2>
-                        <div class="green-body-bar"></div>
-                        <div class="contact-hours">
-                            <p class="contact-day">Monday</p>
-                            <p class="contact-spacer">-</p>
-                            <p class="contact-time">8:00 am - 5:00 pm</p>
+                        <div className="green-body-bar"></div>
+                        <div className="contact-hours">
+                            <p className="contact-day">Monday</p>
+                            <p className="contact-spacer">-</p>
+                            <p className="contact-time">8:00 am - 5:00 pm</p>
                         </div>
-                        <div class="contact-hours">
-                            <p class="contact-day">Tuesday</p>
-                            <p class="contact-spacer">-</p>
-                            <p class="contact-time">8:00 am - 5:00 pm</p>
+                        <div className="contact-hours">
+                            <p className="contact-day">Tuesday</p>
+                            <p className="contact-spacer">-</p>
+                            <p className="contact-time">8:00 am - 5:00 pm</p>
                         </div>
-                        <div class="contact-hours">
-                            <p class="contact-day">Wednesday</p>
-                            <p class="contact-spacer">-</p>
-                            <p class="contact-time">8:00 am - 5:00 pm</p>
+                        <div className="contact-hours">
+                            <p className="contact-day">Wednesday</p>
+                            <p className="contact-spacer">-</p>
+                            <p className="contact-time">8:00 am - 5:00 pm</p>
                         </div>
-                        <div class="contact-hours">
-                            <p class="contact-day">Thursday</p>
-                            <p class="contact-spacer">-</p>
-                            <p class="contact-time">8:00 am - 5:00 pm</p>
+                        <div className="contact-hours">
+                            <p className="contact-day">Thursday</p>
+                            <p className="contact-spacer">-</p>
+                            <p className="contact-time">8:00 am - 5:00 pm</p>
                         </div>
-                        <div class="contact-hours">
-                            <p class="contact-day">Friday</p>
-                            <p class="contact-spacer">-</p>
-                            <p class="contact-time">8:00 am - 5:00 pm</p>
+                        <div className="contact-hours">
+                            <p className="contact-day">Friday</p>
+                            <p className="contact-spacer">-</p>
+                            <p className="contact-time">8:00 am - 5:00 pm</p>
                         </div>
-                        <div class="contact-hours">
-                            <p class="contact-day">Saturday</p>
-                            <p class="contact-spacer">-</p>
-                            <p class="contact-time">8:00 am - 4:00 pm</p>
+                        <div className="contact-hours">
+                            <p className="contact-day">Saturday</p>
+                            <p className="contact-spacer">-</p>
+                            <p className="contact-time">8:00 am - 4:00 pm</p>
                         </div>
-                        <div class="contact-hours">
-                            <p class="contact-day">Sunday</p>
-                            <p class="contact-spacer">-</p>
-                            <p class="contact-time">closed</p>
+                        <div className="contact-hours">
+                            <p className="contact-day">Sunday</p>
+                            <p className="contact-spacer">-</p>
+                            <p className="contact-time">closed</p>
                         </div>
 
-                        
                     </div>
                 </section>
             </div>
 
-
-            <div class="white-page">
-                <section class="contact-white-body">
+            <div className="white-page">
+                <section className="contact-white-body">
                     <h2>Lee Wroxton</h2>
-                    <div class="contact-white-body-bar"></div>
+                    <div className="contact-white-body-bar"></div>
                     <h3>Find us on</h3>
 
-                <div class="contact-social-links">
-                    <div>
-                        <a href="https://www.facebook.com/" target="_blank"><img src={redFb} alt="Facebook Logo" /></a>
-                        <p>Facebook</p>
+                    <div className="contact-social-links">
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank"><img src={redFb} alt="Facebook Logo" /></a>
+                            <p>Facebook</p>
+                        </div>
+                        <div>
+                            <a href="https://www.instagram.com/" target="_blank"> <img src={redIg} alt="Instagram Logo" /></a>
+                            <p>Instagram</p>
+                        </div>
                     </div>
-                    <div>
-                        <a href="https://www.instagram.com/" target="_blank"> <img src={redIg} alt="Instagram Logo" /></a>
-                        <p>Instagram</p>
-
-                    </div>
-
-                </div>
-
-
                 </section>
             </div>
-
-
-            
-
 
           </div>
     )

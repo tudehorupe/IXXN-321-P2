@@ -19,7 +19,7 @@ export default function randomShapes(props) {
     }
   };
   return (
-    <div>
+    <div className="shapes-overflow">
       <div
         className="random-shapes"
         style={{ top: props.top, left: props.left, bottom: props.bottom, right: props.right }}
@@ -27,11 +27,15 @@ export default function randomShapes(props) {
         <img
           className="shape-image"
           src={whichShape()}
-          alt="lgo"
-          width="400"
-          height="300"
+          alt="red outline of a circular shape"
+          width="200"
+          height="200"
         />
       </div>
     </div>
   );
 }
+
+
+
+

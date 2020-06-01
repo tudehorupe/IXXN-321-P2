@@ -1,26 +1,17 @@
 .contact-white-body{
-    /* display: flex; */
     max-width: 80vw;
     margin-left: auto;
     margin-right: auto;
-    /* color: #F9F9F9; */
-  
     height: 80vh;
-    /* width: 100%; */
     justify-content: center;
     text-align: center;
     display: inline-block;
-  
-  
-  
     position: absolute;
-      top: 50%;
-      left: 50%;
-      margin-right: -50%;
-      transform: translate(-50%, -50%)
-  
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
   }
-
 
   .contact-white-body-text h3{
     font-size: 250%;
@@ -36,38 +27,15 @@
     font-size: 140%;
     font-family: 'Yeseva One', cursive;
     line-height: 150%;
-
-
   }
-
 
   .green-body-image, .green-body-text, .white-body-image, .white-body-text{
     flex: 1;
-    /* background-color: brown; */
-    /* width: 35vw; */
   }
-  
-  /* .green-body-image, .white-body-image, .white-links-body-image{
-    width: 25vw;
-  
-    object-fit: cover;
-  
-  } */
   
   .green-body-image, .white-body-text{
   margin-right: 5vw;
   }
-  
-  /* .green-body-text, .white-body-image{
-    margin-left: 5vw;
-  
-  } */
-
-
-
-
-
-
 
 .contact-hours{
   display: flex;
@@ -76,41 +44,22 @@
   padding: 1.5vh 0;
 }
 
-
 .contact-day{
-  /* background-color: red; */
   flex: 1;
 }
 
 .contact-spacer{
-  /* background-color: purple; */
   flex: 1;
   text-align: center;
 }
 
 .contact-time{
-  /* background-color: peru; */
   flex: 1.8;
   text-align: end;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   .contact-white-body h2{
     font-size: 400%;
-  
   }
 
 .contact-white-body-bar{
@@ -119,28 +68,19 @@
     margin: 10vh 0;
     background-color: #B83308;
     display: inline-block;
-
-
   }
 
-
-
-
-
 .contact-social-links{
-    /* position: relative; */
     display: flex;
     flex-direction: row;
     text-align: center;
     margin-top: 9vh;
-    /* background-color: red; */
     justify-content: center;
   }
 
   .contact-social-links img{
     width: 10vh;
     height: auto;
-
   }
 
   .contact-social-links a {
@@ -149,31 +89,39 @@
   }
 
 
+  @media (max-width: 1025px){
+
+    .page-name{
+      font-size: 600%;
+    }
+    .contact-hours{
+      font-size: 100%;
+    }
+
+  }
+
 
   @media (max-width: 768px){
-
 
     .contact-white-body-text h3{
       font-size: 160%;
     }
 
-.contact-white-body-text h4, .contact-white-body-text p{
+    .contact-white-body-text h4, .contact-white-body-text p{
       font-size: 120%;
-    
     }
 
   }
 
 
+  @media (max-width: 768px){
 
+    .contact-white-body h2{
+      font-size: 350%;
+    }
 
-  @media (max-width: 426px){
-
-
+    .contact-social-links a {
+      margin:  0 6vw;
+    }
 
   }
-
-
-
-
-

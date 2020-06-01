@@ -8,38 +8,16 @@ body{
   background-color: #F9F9F9;
 }
 
-<<<<<<< HEAD
-html{
-    scroll-behavior: smooth;
-  }
-=======
  html{
     scroll-behavior: smooth;
   } 
->>>>>>> 7994b6957522a0155185ec320d14eac3b6a11cbe
 
-.navigation{
-    scroll-behavior: smooth;
+  .App{
+      overflow: hidden;
   }
-
-
-#smooth{
-  scroll-behavior: smooth;
-}
-
-.footer{
-  scroll-behavior: smooth;
-}
-
-href{
-  scroll-behavior: smooth;
-}
-
-
 
 h1, h3, a{
   font-family: 'Yeseva One', cursive;
-
 }
 
 p{
@@ -48,60 +26,6 @@ p{
 
 a{
   font-size: 120%;
-}
-
-.top-window{
-  background-color: #00300B;
-  height: 100vh;
-}
-
-.landing-section{
-  background-color: #00300B;
-  height: 100vh;
-}
-
-
-.social{
-  margin: 200vh;
-  background-color: red;
-}
-
-
-/* .top-window, .third-window{
-  background-color: #00300B;
-  height: 100vh;
-}
-
-.second-window, .fourth-window{
-  background-color: #F9F9F9;
-  height: 100vh;
-}
-
-.footer{
-  background-color: #00300B;
-  height: 50vh;
-} */
-
-
-
-
-.link-down-page{
-
-  scroll-behavior: smooth;
-
-}
-
-
-.link-down-page img{
-
-scroll-behavior: smooth;
-
-}
-
-
-#link-down-page{
-scroll-behavior: smooth;
-
 }
 
 /* width */

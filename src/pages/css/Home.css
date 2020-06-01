@@ -2,113 +2,43 @@
   background-color: #00300B;
   height: 100vh;
   color: #F9F9F9;
-  
 }
 
 .green-page, .home-green-page, .contact-green-page, .white-page, .shortcuts-white-page, .quote-white-page, .about-white-page, .contact-white-page, .contact-white-page{
   position: relative;
 }
 
-
-.home-landing-image{
-  /* width: 20vw; */
-
+.green-body, .shortcut-white-body{
+  z-index: 3;
 }
 
-
 .home-landing{
-  /* display: flex;
-  position: relative;
-  padding-top: 10vh; */
   padding-top: 15vh;
   position: relative;
   text-align: center;
-  /* background-color: red; */
-  /* position: relative; */
-  text-align: center;
-  /* color: white; */
 }
-
 
 .home-hero img{
   top: 0vh;
-  
 }
 
 .home-image{
-  /* position: relative; */
   width: 30vw;
   height: 70vh;
-
   object-fit: cover;
-
 }
 
 .home-page-name{
-  /* height: 60%; */
   width: 100%;
-
   position: absolute;
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 600%;
+  font-size: 800%;
   color: #F9F9F9;
+  animation: 0.5s ease-out 0.5s normal forwards 1 fadein;
+  opacity: 0;
 }
-
-.home-landing{
-  /* display: flex;
-  max-width: 50%; */
-  /* margin-left: 37.5vw; */
-  /* margin-left: auto;
-
-  margin-right: auto;
-  background-color: red;
-
-  display: flex;
-    justify-content: center; */
-    /* background-color: orange; */
-    /* width: 50%; */
-    /* margin-left: auto;
-    margin-right: auto; */
-
-
-}
-
-
-
-.home-hero img{
-  /* width: 25vw;
-  height: 70vh;
-  object-fit: cover;
-  margin-left: auto;
-  margin-right: auto;
-  top: 15vh;
-  position: absolute; */
-
-}
-
-.home-page-name{
-  /* position: absolute;
-  top: 35vh;
-
-
-  font-size: 110px;
-
-  left: 50%;
-  top: 70%;
-  transform: translate(-50%, -50%);
-  color: #F9F9F9; */
-  /* animation: 0.5s ease 2.5s normal forwards 1 fadein;
-  opacity:0; */
-
-}
-
-/* @keyframes fadein{
-  from{opacity:0}
-  to{opacity:1}
-} */
-
 
 .green-page .home-green-page, .contact-green-page{
   color: #F9F9F9;
@@ -116,7 +46,6 @@
 
 .white-page, .about-white-page, .contact-white-page{
   color: #B83308;
-  /* background-color: chocolate; */
 }
 
 .green-body, .white-body{
@@ -124,20 +53,12 @@
   width: 80vw;
   margin-left: auto;
   margin-right: auto;
-  /* color: #F9F9F9; */
-  /* background-color: chocolate; */
-
   height: 80vh;
-  /* width: 100%; */
-
-
-
   position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 }
 
 .green-body-image, .green-body-text, .white-body-image, .white-body-text, .contact-white-body-text{
@@ -146,9 +67,7 @@
 
 .green-body-image, .white-body-image, .white-links-body-image{
   width: 25vw;
-
   object-fit: cover;
-
 }
 
 .green-body-image, .white-body-text, .contact-white-body-text{
@@ -157,13 +76,10 @@ margin-right: 5vw;
 
 .green-body-text, .white-body-image{
   margin-left: 5vw;
-
 }
-
 
 .green-body-text h2, .white-body-text h2, .contact-white-body-text h2{
   font-size: 400%;
-
 }
 
 .green-body-bar, .white-body-bar{
@@ -174,69 +90,35 @@ margin-right: 5vw;
 
 .green-body-bar{
   background-color: #F9F9F9;
-  /* background-color: salmon; */
-
 }
 
 .white-body-bar, .shortcut-body-bar{
   background-color: #B83308;
-  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .quote{
   vertical-align: middle;
   display: flex;
-  /* max-width: 80%; */
-
   font-size: 130%;
   position: relative;
   background-color: #F9F9F9;
-  /* background-color: rebeccapurple; */
   top: 50vh;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   padding: 5vh 0;
-  /* display: flex; */
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .quote-mark{
   font-size: 600%;
-  /* background-color: red; */
   margin-left: 32vw;
-  /* position: absolute; */
   margin-top: -5vh;
 }
 
 .quote-text{
   text-align: center;
-  /* padding-top: -20vh; */
-  /* margin-bottom: -10vh; */
-  /* -ms-transform: translateY(-30%);
-  transform: translateY(-30%); */
-  /* background-color: brown; */
   max-width: 30%;
-
-
 }
 
 .red-vertical-line{
@@ -247,7 +129,6 @@ margin-right: 5vw;
   margin-left: 50%;
 }
  
-
 .white-page, .quote-white-page, .shortcuts-white-page, .about-white-page, .contact-white-page{
   background-color: #F9F9F9;
   height: 100vh;
@@ -260,61 +141,35 @@ margin-right: 5vw;
   max-width: 80vw;
   margin-left: auto;
   margin-right: auto;
-  /* color: #F9F9F9; */
-
   height: 80vh;
-  /* width: 100%; */
-
-
-
   position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 }
-
-
-
 
 .shortcut-white-body{
   display: flex;
-  /* flex-direction: row; */
   max-width: 80vw;
   margin-left: auto;
   margin-right: auto;
-  /* color: #F9F9F9; */
-
   height: 80vh;
-  /* width: 100%; */
-  /* background-color: pink; */
-
-
-
   position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    /* overflow: hidden; */
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 .gallery-shortcut{
   flex: 1;
-
-  /* background-color: orangered; */
   margin-right: 5vw;
-
-
 }
 
 .contact-shortcut{
   flex: 1;
-  /* background-color: orange; */
   margin-left: 5vw;
-
-
 }
 
 .shortcut-body-image{
@@ -325,22 +180,13 @@ margin-right: 5vw;
   width: 100%;
   height: 60vh;
   background-color: #0272d0;
-
-
   object-fit: cover;
-
 }
-.gallery-shortcut-image img:hover, .contact-shortcut-image:hover img{
 
+.gallery-shortcut-image img:hover, .contact-shortcut-image:hover img{
   background-color: #0261b0;
   opacity: 0.8;
-
-
 }
-
-/* .shortcut-body-image{
-margin-right: 5vw;
-} */
 
 .shortcut-body-bar{
   width: 7vw;
@@ -348,20 +194,8 @@ margin-right: 5vw;
   margin: 2vh 0;
 }
 
-
 .white-shortcut-body-text{
   margin-bottom: 12vh;
-  /* background-color: blue; */
-}
-.white-shortcut-body-text-bottom{
-
-
-  /* background-color: red; */
-}
-
-.shortcuts-white-page{
-  /* background-color: aqua; */
-  /* margin-bottom: 2vh; */
 }
 
 .white-shortcut-body-text h2, .white-shortcut-body-text-bottom h2{
@@ -375,25 +209,24 @@ margin-right: 5vw;
   background-color: #B83308;
   color: #F9F9F9;
   padding: 1% 4%;
-  /* padding-bottom: -20vh; */
-
+  -webkit-transition: .2s ease-out;
+	transition: .2s ease-out;
 }
 
 .shortcut-button-link:hover{
   text-decoration: underline;
-
+  background-color: #F9F9F9;
+  color: #B83308;
+  border: 2px solid #B83308;
 }
-
 
 .shortcut-text-link{
   color: #B83308;
   font-size: 250%;
 }
 
-
 .hover-shortcuts{
   position: relative;
-  /* width: 50%; */
 }
 
 .shortcuts-hover-overlay{
@@ -402,8 +235,6 @@ margin-right: 5vw;
     height: 60vh;
     top: 0;
     bottom: 0;
-
-
     opacity: 0;
     transition: .5s ease;
     background-color: grey;
@@ -412,14 +243,16 @@ margin-right: 5vw;
 
 .hover-shortcuts:hover .shortcuts-hover-overlay {
   opacity: 0.15;
-
 }
 
 
+@media (max-width: 1030px){
 
+  .green-body-text, .white-body-text, .contact-white-body-text, .white-shortcut-body-text{
+    font-size: 90%;
+  }
 
-
-
+}
 
 
 @media (max-width: 768px){
@@ -431,13 +264,6 @@ margin-right: 5vw;
   .home-image{
     width: 48vw;
   }
-
-
-
-
-
-
-
 
   .quote{
     font-size: 110%;
@@ -452,118 +278,66 @@ margin-right: 5vw;
     max-width: 45%;
   }
 
-
-
-
   .green-body, .white-body{
     display: flex;
     flex-direction: column;
     width: 90vw;
     margin-left: auto;
     margin-right: auto;
-    /* color: #F9F9F9; */
-    /* background-color: chocolate; */
-  
     height: 120vh;
-    /* width: 100%; */
-  
-  
-  
     position: absolute;
-      top: 50%;
-      left: 50%;
-      margin-right: -50%;
-      transform: translate(-50%, -50%)
-  
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
   }
-
-
-
-
-
-
 
   .green-body-image, .white-body-image, .white-links-body-image{
     width: 100%;
     height: 20vh;
-  
     object-fit: cover;
-  
   }
   
   .green-body-image, .white-body-text, .contact-white-body-text{
-  margin-right: 0vw;
+    margin-right: 0vw;
   }
   
   .green-body-text, .white-body-image{
     margin-left: 0vw;
-  
   }
-  
   
   .green-body-text h2, .white-body-text h2, .contact-white-body-text h2{
     font-size: 300%;
-  
   }
-  
   
   .green-body-bar, .white-body-bar{
     width: 8vw;
     height: 2vh;
     margin: 3vh 0;
-    /* background-color: salmon; */
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   .shortcut-white-body{
     display: flex;
     flex-direction: column;
     max-width: 90vw;
     margin-left: auto;
-    margin-right: auto;
-    /* color: #F9F9F9; */
-  
+    margin-right: auto;  
     height: 80vh;
-    /* width: 100%; */
-    /* background-color: pink; */
-  
-  
-  
     position: absolute;
-      top: 50%;
-      left: 50%;
-      margin-right: -50%;
-      transform: translate(-50%, -50%);
-      /* overflow: hidden; */
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
   }
   
   .gallery-shortcut{
     flex: 1;
-  
-    /* background-color: orangered; */
     margin-right: 0vw;
-  
-  
   }
   
   .contact-shortcut{
     flex: 1;
-    /* background-color: orange; */
     margin-left: 0vw;
-  
-  
   }
   
   .shortcut-body-image{
@@ -573,41 +347,22 @@ margin-right: 5vw;
   .gallery-shortcut-image, .contact-shortcut-image{
     width: 100%;
     height: 60vh;
-    background-color: #0272d0;
-  
-  
     object-fit: cover;
-  
   }
   .gallery-shortcut-image img:hover, .contact-shortcut-image:hover img{
-  
-    background-color: #0261b0;
     opacity: 0.8;
-  
-  
   }
-
-
-
-
-
-
 
 .gallery-shortcut{
   padding-bottom: 20vh;
 }
 
-
-
-
 .home-green-page{
     height: 135vh;
-    
   }
 
   .contact-green-page{
     height: 135vh;
-
   }
 
 .shortcuts-white-page{
@@ -615,43 +370,26 @@ margin-right: 5vw;
     margin-bottom: 100vh;
   }
 
-
-
   .about-white-page{
     height: 130vh;
-
   }
 
   .contact-white-page{
     height: 135vh;
-
   }
-
-
-
-
 
   .white-shortcut-body-text{
     margin-bottom: -15vh;
-    /* background-color: green; */
   }
-
-
-
-
-
 
   .white-page{
     height: 90vh;
     margin-bottom: -5vh;
-
-    /* background-color: red; */
   }
 
   .white-body :nth-child(1) { order: 2; }
 
   .white-body :nth-child(2) { order: 1; }
-
 
 }
 
@@ -681,26 +419,21 @@ margin-right: 5vw;
 
   .shortcuts-white-page{
     height: 200vh;
-
   }
 
-
-
   .shortcuts-white-page{
-    /* background-color: pink; */
     height: 200%;
     margin-bottom: 20vh;
   }
+
   .shortcuts-white-page{
     height: 400vh;
   }
 
-
-
   .shortcuts-white-page{
-    /* background-color: orange; */
     margin-bottom: 200vh;
     height: 5000vh;
   }
+  
 }
 

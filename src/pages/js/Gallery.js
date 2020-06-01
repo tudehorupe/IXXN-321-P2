@@ -1,5 +1,8 @@
 import React from 'react';
 import '../css/Gallery.css';
+import RandomShape from "../../components/js/randomShapes";
+
+
 import galleryLanding from "../../assets/galleryLanding.jpg";
 import paleRoses from "../../assets/paleRoses.jpg";
 import hydrangeaCloseUp from "../../assets/hydrangeaCloseUp.jpg";
@@ -9,94 +12,130 @@ import pinkBuds from "../../assets/pinkBuds.jpg";
 import driedRoses from "../../assets/driedRoses.jpg";
 
 
-import ContactCard from '../../components/ContactCard';
-
-
-
 export default function Gallery() {
-    
     
     return (
          <div className="about-page">
 
+            <div className="landing-section">
 
+                <RandomShape top="102px" left="90%" shape={1} />
+                <RandomShape top="82vh" left="7%" shape={2} />
+                <RandomShape top="170vh" left="95%" shape={3} />
+                <RandomShape top="230vh" left="38%" shape={4} />
+                <RandomShape top="330vh" left="3%" shape={1} />
+                <RandomShape top="280vh" left="92%" shape={2} />
+                <RandomShape top="410vh" left="85%" shape={1} />
+                <RandomShape top="440vh" left="15%" shape={3} />
+                <RandomShape top="490vh" left="65%" shape={4} />
 
-            <div class="landing-section">
-
-
-            <section class="about-landing">
-                <div class="hero">
-                    <img class="about-image" src={galleryLanding} alt="lgo" width="400" height="300" />
-                    <h1 class="page-name">Gallery</h1>
-				    <div class="slider"></div>
-                </div>
-            </section>
-
+                <section className="about-landing">
+                    <div className="hero">
+                        <img className="about-image" src={galleryLanding} width="400" height="300" 
+                        alt="close up of a bouquet made at Lee Wroxton"/>
+                        <h1 className="page-name">Gallery</h1>
+                        <div className="slider"></div>
+                    </div>
+                </section>
             </div>
 
 
+            <div className="gallery-white-page">
+                <section className="gallery-white-body">
+                    <div className="left-gallery">
 
-            {/* <div class="white-page"> */}
+                        <div className="gallery-body-text">
+                            <h2>Scroll to view</h2>
+                            <div className="white-body-bar"></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
 
-
-            <div class="gallery-white-page">
-                <section class="gallery-white-body">
-                    <div class="left-gallery">
-
-                            <div class="gallery-body-text">
-                                <h2>Scroll to view</h2>
-                                <div class="white-body-bar"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div className="container-outer">
+                            <div className="container">
+                                <img className="g-image" src={hydrangeaCloseUp} alt="Hydrangea bunch close up" />
+                                <div className="g-h-overlay">
+                                    <div className="text">
+                                        <h2>Hydrangea bunch</h2>
+                                        <div className="gallery-hover-bar"></div>
+                                        <h4>$20.00</h4>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="this">
-                            <img class="gallery-image" src={hydrangeaCloseUp} alt="lgo" />
-                            <div class="gallery-hover-overlay"></div>
+                        </div>
+
+                        <div className="container-outer">
+                            <div className="container">
+                                <img className="g-image" src={colouredBunch} alt="Winter bouquet of flowers and berries" />
+                                <div className="g-h-overlay">
+                                    <div className="text">
+                                        <h2>Winter bouquet</h2>
+                                        <div className="gallery-hover-bar"></div>
+                                      <h4>$60.00</h4>
+                                    </div>
+                                </div>
                             </div>
+                        </div>
 
-                            <div class="this">
-                            <img class="gallery-image" src={colouredBunch} alt="lgo" />
-                            <div class="gallery-hover-overlay"></div>
+                        <div className="container-outer">
+                            <div className="container">
+                                <img className="g-image" src={driedRoses} alt="Dried roses bunch" />
+                                <div className="g-h-overlay">
+                                    <div className="text">
+                                        <h2>Dried roses bunch</h2>
+                                        <div className="gallery-hover-bar"></div>
+                                        <h4>$25.00</h4>
+                                    </div>
+                                </div>
                             </div>
-
-                            <img class="gallery-image" src={driedRoses} alt="lgo" />
-
-                            
+                        </div>
                     </div>
 
 
+                    <div className="right-gallery">
 
-                    <div class="right-gallery">
-                        <img class="gallery-image" src={paleRoses} alt="lgo" />
-                        <img class="gallery-image" src={pinkWhiteRoses} alt="lgo" />
-                        <img class="gallery-image" src={pinkBuds} alt="lgo" />
+                        <div className="container-outer">
+                            <div className="container">
+                                <img className="g-image" src={paleRoses} alt="Mixed variation bouquet" />
+                                <div className="g-h-overlay">
+                                    <div className="text">
+                                        <h2>Mixed variation bouquet</h2>
+                                        <div className="gallery-hover-bar"></div>
+                                        <h4>$65.00</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-
-
+                        <div className="container-outer">
+                            <div className="container">
+                                <img className="g-image" src={pinkWhiteRoses} alt="Mixed roses bouquet" />
+                                <div className="g-h-overlay">
+                                    <div className="text">
+                                        <h2>Mixed roses bouquet</h2>
+                                        <div className="gallery-hover-bar"></div>
+                                        <h4>$40.00</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   
+                        <div className="container-outer">
+                            <div className="container">
+                                <img className="g-image" src={pinkBuds} alt="Bunch of pink peony buds" />
+                                <div className="g-h-overlay">
+                                    <div className="text">
+                                        <h2>Pink peony bunch</h2>
+                                        <div className="gallery-hover-bar"></div>
+                                        <h4>$15.00</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
 
                 </section>
             </div>
-
-            {/* <div class="gallery-white-page">
-                <section class="gallery-body">
-                    <div class="white-body-text">
-                        <h2>Scroll to view</h2>
-                        <div class="white-body-bar"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <br></br>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                    <img class="gallery-body-image" src={paleRoses} alt="lgo" />
-
-
-                </section>
-            </div> */}
-            
-            
-
-            
-
 
           </div>
     )

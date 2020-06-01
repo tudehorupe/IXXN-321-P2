@@ -1,4 +1,15 @@
+.shapes-overflow{
+    position: relative;
+}
+
 .random-shapes{
     position: absolute;
-    z-index: 28;
+    z-index: 2;
 }
+
+@media (max-width: 1025px){
+    .shape-image{
+        width: 80%;
+        height: auto;
+    }
+  }

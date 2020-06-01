@@ -1,35 +1,37 @@
 import React from 'react';
 import '../css/About.css';
+import RandomShape from "../../components/js/randomShapes";
+
 import hydrangeaInField from "../../assets/hydrangeaInField.jpg";
 import inShopTwo from "../../assets/inShopTwo.jpg";
 import inShopThree from "../../assets/inShopThree.jpg";
 import pinkBuds from "../../assets/pinkBuds.jpg";
 
-
-import ContactCard from '../../components/ContactCard';
-
-import data from "../../data/bodyContent.json";
-
-
-
 export default function Home() {
-    
     
     return (
          <div className="about-page">
 
-
-
             <div class="landing-section">
 
+                <RandomShape top="102px" left="-5%" shape={3} />
+                <RandomShape top="250px" left="95%" shape={4} />
+                <RandomShape bottom="-10vh" left="96%" shape={2} />
+                <RandomShape bottom="15vh" left="40%" shape={4} />
+                <RandomShape top="185vh" left="-2%" shape={1} />
+                <RandomShape bottom="-290vh" left="90%" shape={3} />
+                <RandomShape top="87vh" left="65%" shape={2} />
+                <RandomShape bottom="-405vh" left="75%" shape={2} />
+                <RandomShape bottom="-440vh" left="6%" shape={4} />
 
-            <section class="about-landing">
-                <div class="hero">
-                    <img class="about-image" src={hydrangeaInField} alt="lgo" width="400" height="300" />
-                    <h1 class="page-name">About</h1>
-				    <div class="slider"></div>
-                </div>
-            </section>
+
+                <section class="about-landing">
+                    <div class="hero">
+                        <img class="about-image" src={hydrangeaInField} alt="Hydrangeas in the field" width="400" height="300" />
+                        <h1 class="page-name">About</h1>
+                        <div class="slider"></div>
+                    </div>
+                </section>
 
             </div>
 
@@ -43,14 +45,14 @@ export default function Home() {
                         <br></br>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
-                    <img class="white-body-image" src={inShopTwo} alt="lgo" />
+                    <img class="white-body-image" src={inShopTwo} alt="Two workers of Lee Wroxton wrapping a bouquet" />
 
                 </section>
             </div>
             
             <div class="home-green-page">
                 <section class="green-body">
-                    <img class="green-body-image" src={inShopThree} alt="lgo" />
+                    <img class="green-body-image" src={inShopThree} alt="Close up of stock with worker blurred in the background" />
                     <div class="green-body-text">
                         <h2>Our Ethics</h2>
                         <div class="green-body-bar"></div>
@@ -70,22 +72,10 @@ export default function Home() {
                         <br></br>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
-                    <img class="white-body-image" src={pinkBuds} alt="lgo" />
+                    <img class="white-body-image" src={pinkBuds} alt="Bunch of pink peony buds" />
 
                 </section>
             </div>
-
-
-{/* 
-                        <div class="white-page">
-                <h3>quote</h3>
-                <ContactCard />
-
-                {data.GreenSection.map(i => <ContactCard userImg={i.userImg} lastName={i.lastName} />)}
-            </div> */}
-
-            
-
 
           </div>
     )

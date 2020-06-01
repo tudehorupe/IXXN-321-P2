@@ -1,12 +1,6 @@
 .gallery-white-page{
     background-color: #F9F9F9;
-    /* height: 100vh; */
     color: #B83308;
-    /* background-color: blue; */
-  }
-
-  .gallery-white-page{
-    /* background-color: blue; */
   }
 
   .gallery-white-page{
@@ -25,21 +19,8 @@
     display: flex;
     max-width: 80vw;
     margin-left: auto;
-    margin-right: auto;
-    /* color: #F9F9F9; */
-  
+    margin-right: auto;  
     padding-top: 20vh;
-    /* background-color: red; */
-    /* width: 100%; */
-  
-  
-  
-    /* position: absolute;
-      top: 50%;
-      left: 50%;
-      margin-right: -50%;
-      transform: translate(-50%, -50%) */
-  
   }
   
  .gallery-body-text{
@@ -48,210 +29,127 @@
   
   .gallery-body-image{
     width: 25vw;
-  
     object-fit: cover;
-  
   }
   
 .gallery-body-text{
   margin-bottom: 20vh;  
 }
   
-  /* .green-body-text, .white-body-image{
-    margin-left: 5vw;
-  
-  } */
-  
-  
-  .gallery-body-text h2{
+.gallery-body-text h2{
     font-size: 400%;
-  
   }
-  
-  /* .green-body-bar, .white-body-bar{
-    width: 5vw;
-    height: 2vh;
-    margin: 5vh 0;
-  }
-  
-  .green-body-bar{
-    background-color: #F9F9F9;
-    
-  }
-  
-  .white-body-bar{
-    background-color: #B83308;
-  } */
-
-
-  /* .gallery-white-page{
-    background-color: #F9F9F9;
-    height: 200vh;
-    color: #B83308;
-
-  } */
-
-
-
-
-  
-
-
-
-
-
 
   .shortcut-body-image{
     flex: 1;
   }
-  
-  .gallery-image{
+
+  .container-outer{
     margin-bottom: 20vh;
-    width: 100%;
-    height: 80vh;
-    background-color: #0272d0;
-  
-  
-    object-fit: cover;
-  
-  }
-  .gallery-image img:hover{
-  
-    background-color: #0261b0;
-    opacity: 0.8;
-  
-  
   }
 
-
-  .this{
+  .container {
     position: relative;
-    /* width: 50%; */
+    width: 100%;
   }
   
-  .gallery-hover-overlay{
-      position: absolute;
-      width: 100%;
-      height: 80vh;
-      top: 0;
-      bottom: 0;
-      margin-bottom: 20vh;
-  
-  
-      opacity: 0;
-      transition: .5s ease;
-      background-color: #B83308;
+  .g-image {
+    bottom: 20vh;
+    width: 100%;
+    height: 80vh;  
+    object-fit: cover;
   }
   
-  .this:hover .gallery-hover-overlay {
-    opacity: 0.2;
+  .g-h-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 99%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease-out;
+    background-color: #00300B;
+  }
+  
+  .container:hover .g-h-overlay {
+    opacity: 0.95;
+  }
+  
+  .text {
+    color: #F9F9F9;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .gallery-hover-bar{
+    width: 5vw;
+    height: 2vh;
+    margin: 5vh 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+    background-color: #F9F9F9;
+  }
 
   .right-gallery{
     flex: 1;
-    /* background-color: orange; */
     margin-left: 5vw;
   }
 
   .left-gallery{
     flex: 1;
-    /* background-color: orangered; */
     margin-right: 5vw;  
   }
   
   .shortcut-body-image{
     flex: 1;
   }
-  
-  .gallery-shortcut-image, .contact-shortcut-image{
-    width: 100%;
-    height: 60vh;
-    background-color: #0272d0;
-  
-  
-    object-fit: cover;
-  
-  }
-  .gallery-shortcut-image img:hover, .contact-shortcut-image:hover img{
-  
-    background-color: #0261b0;
-    opacity: 0.8;
-  
-  
+
+  .gallery-white-body{
+    z-index: 5;
   }
 
+  .left-gallery, .right-gallery{
+    z-index: 3;
+  }
+
+
+  @media (max-width: 1025px){
+
+  .gallery-body-text h2{
+    font-size: 350%;
+  }
+
+}
 
 
   @media (max-width: 768px){
 
     .gallery-body-text h2{
-      font-size: 281%;
-    
+      font-size: 267%;
     }
 
   }
 
+  
+  @media (max-width: 595px){
 
+    .gallery-white-body{
+      display: flex;
+      flex-direction: column;
+    }
 
-
-  @media (max-width: 426px){
-
-
+    .left-gallery, .right-gallery{
+      margin-left: 0vw;
+      margin-right: 0vw;  
+    }
 
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-              <div class="white-page">
-                <section class="white-body">
-                    <div class="white-body-text">
-                        <h2>Talk to us</h2>
-                        <div class="white-body-bar"></div>
-                        <h3>Lee Wroxton</h3>
-
-                        <br></br>
-                        <h4>Location</h4>
-                        <p>33 Ramshaw Lane</p>
-                        <p>Arrowtown, Otago</p>
-
-                        <br></br>
-                        <h4>Contact</h4>
-                        <p>enquiries@leewroxton.co.nz</p>
-                        <p>+64 3 651 0280</p>
-
-                    </div>
-                    <img class="white-body-image" src={arrowtownMap} alt="lgo" />
-
-                </section>
-            </div> */

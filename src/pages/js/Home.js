@@ -9,66 +9,48 @@ import inShopOne from "../../assets/inShopOne.jpg";
 import galleryShortcut from "../../assets/pinkWhiteRoses.jpg";
 import contactUsShortcut from "../../assets/contactUsShortcut.jpg";
 
-import ContactCard from "../../components/ContactCard";
-import data from "../../data/bodyContent.json";
-
 export default function Home() {
   return (
     <div className="home-page">
-      <div class="landing-section">
-        <section class="home-landing">
+      <div className="landing-section">
+        <section className="home-landing">
           <img
-            class="home-image"
+            className="home-image"
             src={hydrangeaCloseUp}
-            alt="lgo"
+            alt="Hydrangea bunch close up"
             width="400"
             height="300"
           />
-
-          <h1 class="home-page-name">Lee Wroxton</h1>
+          <h1 className="home-page-name">Lee Wroxton</h1>
         </section>
-
-        {/* 
-                <section class="home-landing">
-                    <div class="home-hero">
-                        <img class="home-image" src={hydrangeaCloseUp} alt="lgo" width="400" height="auto" />
-                        <h1 class="home-page-name">Lee Wroxton</h1>
-                        <div class="slider"></div>
-                    </div>
-                </section> */}
-
-        {/* <div class="landing-image-title">
-
-                    <img class="home-landing-image" src={assets} alt="lgo" />
-
-                    <div class="title">
-                         <h1>Lee Wroxton</h1>
-                    </div>
-                </div> */}
       </div>
 
-      {/* <section id="link-down-page"></section> */}
+      <div className="quote-white-page">
+        <RandomShape top="-80px" left="-5%" shape={1} />
+        <RandomShape top="-400px" left="95%" shape={2} />
+        <RandomShape bottom="-110vh" left="96%" shape={4} />
+        <RandomShape bottom="-85vh" left="20%" shape={3} />
+        <RandomShape bottom="-180vh" left="-4%" shape={2} />
+        <RandomShape bottom="-325vh" left="90%" shape={1} />
+        <RandomShape bottom="-250vh" left="38%" shape={2} />
+        <RandomShape bottom="-347vh" left="-1%" shape={4} />
 
-      <div class="quote-white-page">
-        <RandomShape top="-30px" left="70%" shape={1} />
-        <RandomShape top="120px" left="20%" shape={2} />
-        <RandomShape bottom="-10%" left="40%" shape={3} />
-        <div class="red-vertical-line"></div>
-        <div class="quote">
-          <h1 class="quote-mark">“</h1>
-          <h3 class="quote-text">
+        <div className="red-vertical-line"></div>
+        <div className="quote">
+          <h1 className="quote-mark">“</h1>
+          <h3 className="quote-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </h3>
         </div>
       </div>
 
-      <div class="home-green-page">
-        <section class="green-body">
-          <img class="green-body-image" src={inShopOne} alt="lgo" />
-          <div class="green-body-text">
+      <div className="home-green-page">
+        <section className="green-body">
+          <img className="green-body-image" src={inShopOne} alt="Florist at Lee Wroxton working behind the shop counter" />
+          <div className="green-body-text">
             <h2>Lee Wroxton</h2>
-            <div class="green-body-bar"></div>
+            <div className="green-body-bar"></div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -89,26 +71,17 @@ export default function Home() {
         </section>
       </div>
 
-      {/* <div class="white-page">
-                <h3>quote</h3>
-                <ContactCard />
-
-                {data.Employees.map(i => <ContactCard firstName={i.firstName} lastName={i.lastName} />)}
-            </div> */}
-      <div class="shortcuts-white-page">
-        <section class="shortcut-white-body">
-          <div class="gallery-shortcut">
-            <div class="hover-shortcuts">
+      <div className="shortcuts-white-page">
+        <section className="shortcut-white-body">
+          <div className="gallery-shortcut">
               <img
-                class="gallery-shortcut-image"
+                className="gallery-shortcut-image"
                 src={galleryShortcut}
-                alt="lgo"
+                alt="Mixed roses bouquet"
               />
-              <div class="shortcuts-hover-overlay"></div>
-            </div>
-            <div class="white-shortcut-body-text">
+            <div className="white-shortcut-body-text">
               <h2>Gallery</h2>
-              <div class="shortcut-body-bar"></div>
+              <div className="shortcut-body-bar"></div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -123,16 +96,16 @@ export default function Home() {
             </div>
           </div>
 
-          <div class="contact-shortcut">
+          <div className="contact-shortcut">
             <img
-              class="contact-shortcut-image"
+              className="contact-shortcut-image"
               src={contactUsShortcut}
-              alt="lgo"
+              alt="Work bench at Lee Wroxton before a bouquet is assembled"
             />
 
-            <div class="white-shortcut-body-text">
+            <div className="white-shortcut-body-text">
               <h2>Contact</h2>
-              <div class="shortcut-body-bar"></div>
+              <div className="shortcut-body-bar"></div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.

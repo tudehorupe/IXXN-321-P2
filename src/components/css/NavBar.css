@@ -13,9 +13,8 @@
     top: 2.2vh;
     right: 0vw;
     transform: scale(0.9);
-    /* background-color: blue; */
-    /* flex: 1; */
   }
+
   .checkbox-wrapper input {
     width: 70px;
     height: 70px;
@@ -27,6 +26,7 @@
     opacity: 0;
     -webkit-touch-callout: none;
   }
+
   .checkbox-wrapper span {
     display: block;
     width: 33px;
@@ -35,47 +35,46 @@
     position: absolute;
     z-index: 205;
     background: #F9F9F9;
-    /* border-radius: 3px; */
     transform-origin: 4px 0px;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity .55s ease;
     opacity: 1;
   }
+
   .checkbox-wrapper:hover span {
     opacity: 0.9;
   }
+
   .checkbox-wrapper span:first-child {
     transform-origin: 0% 0%;
   }
+
   .checkbox-wrapper span:nth-child(2) {
     transform: translate(0px, 10px);
   }
+
   .checkbox-wrapper span:nth-child(3) {
     transform: translate(0px, 20px);
   }
 
-
   /* the hamburger logo checked as a cross */
-
   .checkbox-wrapper input:checked ~ span {
     position: absolute;
     opacity: 1;
     transform: rotate(45deg) translate(0, 0);
     background: #F9F9F9;
-    /* background: red; */
-
   }
+
   .checkbox-wrapper input:checked ~ span:nth-last-child(3) {
     position: absolute;
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
   }
+
   .checkbox-wrapper input:checked ~ span:nth-last-child(2) {
     transform: rotate(-45deg) translate(-14px, 11px);
   }
 
-
   /* sliding back animation */
-
   #menu-unchecked {
     position: fixed;
     z-index: 101;
@@ -89,17 +88,13 @@
     transform-origin: 0% 0%;
     width: 100vw;
     background: #00300B;
-    /* background: yellow; */
-
     transform-origin: 0% 0%;
-
     /* this changes the direction */
     transform: translate(100%, 0);
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
 
   /* sliding out animation */
-  
   #menu-checked {
     position: absolute;
     position: fixed;
@@ -108,20 +103,18 @@
     flex-direction: column;
     justify-content: space-evenly;
     top: 0;
-    /* left: 0vw; */
     height: 100vh;
     margin: 0;
     transform-origin: 0% 0%;
     width: 100vw;
     background: #00300B;
-    /* background: orange; */
-
     transform-origin: 0% 0%;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
     -webkit-box-shadow: 4px 3px 5px 0px rgba(0, 0, 0, 0.65);
     -moz-box-shadow: 4px 3px 5px 0px rgba(0, 0, 0, 0.65);
     box-shadow: 4px 3px 5px 0px rgba(0, 0, 0, 0.65);
   }
+
   .screen-mask {
     z-index: 101;
     background-color: transparent;
@@ -131,15 +124,18 @@
     height: 100vh;
     width: 10vw;
   }
+
   .screen-mask-none {
     display: none;
   }
+
   .nav-item {
     position: relative;
     margin-bottom: 5vh;
     text-align: center;
     font-size: 200%;
   }
+
   .normal {
     font-size: 1.25rem;
     font-weight: bolder;
@@ -148,17 +144,21 @@
     opacity: 1;
     transition: 0.5s;
   }
+
   .normal:hover {
     opacity: 1;
   }
+
   .active {
     opacity: 1;
     margin-bottom: 5vh;
     font-weight: 900;
   }
+
   a {
     text-decoration: none;
   }
+
   .postings-text {
     font-size: 1.25rem;
     font-weight: bolder;
@@ -169,69 +169,44 @@
     display: flex;
     cursor: pointer;
   }
+
   .postings-text:hover {
     opacity: 1;
   }
-  /* .postings-asset {
-    font-size: 1.25rem;
-    font-weight: bolder;
-    color: #1a1a1a;
-    text-decoration: none;
-    opacity: 0.6;
-    transition: 0.5s;
-    display: flex;
-    cursor: pointer;
-    margin-left: 10px;
-  } */
+
   .postings-asset:hover {
     opacity: 1;
   }
+
   .postings-container {
     margin-bottom: 5vh;
   }
+
   .postings-list {
     color: #1a1a1a;
   }
+
   .postings-heading {
     display: flex;
   }
-  /* .pending-normal {
-    font-size: 1rem;
-    font-weight: bolder;
-    color: #1a1a1a;
-    text-decoration: none;
-    opacity: 0.6;
-    transition: 0.5s;
-  } */
+
   .pending-normal:hover {
     opacity: 1;
   }
-  /* .pending-active {
-    opacity: 1;
-    margin-bottom: 1vh;
-    font-weight: 900;
-  } */
-  /* .pending-item {
-    margin-bottom: 2vh;
-    margin-top: 2vh;
-  } */
-  /* .postings-list-container {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease-in-out;
-    margin-left: 4px;
-  } */
+
   .item-container {
     height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
   }
+
   .icon {
     width: 27px;
     height: 27px;
     margin: 3px;
   }
+
   .external-icons {
     position: absolute;
     display: flex;
@@ -239,19 +214,11 @@
     right: 10px;
   }
 
-
   .lee-wroxton{
     z-index: 200;
-    /* display: inline-block; */
     font-size: 150%;
-    /* background-color: orange; */
-    /* flex: 3; */
     margin-left: -3.5vw;
-
-
-
   }
-
 
   .mobile-nav-wrapper{
     background-color: #00300B;
@@ -259,14 +226,10 @@
     width: 100vw;
     padding: 2vh 0;
     z-index: 800;
-    /* display: flex; */
-
   }
-  
 
   .nav-container{
     flex: 1;
-    /* background-color: pink; */
   }
 
 
@@ -274,14 +237,12 @@
 
     .lee-wroxton{
       z-index: 200;
-      /* display: inline-block; */
       font-size: 150%;
-      /* background-color: orange; */
-      /* flex: 3; */
       margin-left: -10vw;
     }
 
     .checkbox-wrapper {
       right: 3vw;
     }
+    
   }

@@ -1,14 +1,10 @@
-  /* .slider{
-    width: 100%;
-    height: 100vh;
-    z-index: -1;
-    margin-top: 50%;
-  } */
+  .white-body{
+    z-index: 3;
+  }
   
   .hero{
     height: 60%;
     width: 100%;
-    /* margin-top: 12vh; */
     left: 0;
     bottom: 0;
   }
@@ -25,14 +21,13 @@
   
   .page-name{
     position: absolute;
-    top: 35vh;
-    margin-left: 20vw;
-    font-size: 100px;
+    top: 38vh;
+    margin-left: 20%;
+    font-size: 150px;
     transform: translate(-40%, -80%);
     color: #F9F9F9;
-    animation: 0.5s ease 2.5s normal forwards 1 fadein;
+    animation: 0.5s ease-out 0.5s normal forwards 1 fadein;
     opacity:0;
-
   }
   
   @keyframes fadein{
@@ -41,31 +36,11 @@
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* .about-image{
-    height: 800%;
-    width: auto;
-    object-fit: cover;
-
-}
-
-  .about-image img{
-    width: 1000px;
-    height: 20px;
-    object-fit: cover;
-  } */
-
+  @media (max-width: 1123px){
+    .page-name{
+      font-size: 120px;
+    }
+  }
 
 
   @media (max-width: 768px){
@@ -77,27 +52,12 @@
     .home-image{
       width: 48vw;
     }
-  
-  
-  
-    /* .page-name{
-      margin-left: 25vw;
-      font-size: 100px;
-    } */
-
-
 
     .page-name{
       top: 25vh;
       margin-left: 5vw;
       transform: translate(-0%, -0%);
     }
-  
-    /* .page-name{
-      margin-left: 30vw;
-      font-size: 70px;
-    } */
-  
   
     .quote{
       font-size: 110%;
@@ -111,118 +71,67 @@
     .quote-text{
       max-width: 45%;
     }
-  
-  
-  
-  
+
     .green-body, .white-body{
       display: flex;
       flex-direction: column;
       width: 90vw;
       margin-left: auto;
       margin-right: auto;
-      /* color: #F9F9F9; */
-      /* background-color: chocolate; */
-    
-      height: 120vh;
-      /* width: 100%; */
-    
-    
-    
+      height: 120vh;    
       position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%)
-    
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%)
     }
-  
-  
-  
-  
-  
-  
-  
+
     .green-body-image, .white-body-image, .white-links-body-image{
       width: 100%;
       height: 20vh;
-    
       object-fit: cover;
-    
     }
     
     .green-body-image, .white-body-text, .contact-white-body-text{
-    margin-right: 0vw;
+      margin-right: 0vw;
     }
     
     .green-body-text, .white-body-image{
       margin-left: 0vw;
-    
     }
-    
     
     .green-body-text h2, .white-body-text h2, .contact-white-body-text h2{
       font-size: 300%;
-    
     }
     
     .green-body-bar, .white-body-bar{
       width: 8vw;
       height: 2vh;
       margin: 3vh 0;
-      /* background-color: salmon; */
     }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
     .shortcut-white-body{
       display: flex;
       flex-direction: column;
       max-width: 90vw;
       margin-left: auto;
-      margin-right: auto;
-      /* color: #F9F9F9; */
-    
-      height: 80vh;
-      /* width: 100%; */
-      /* background-color: pink; */
-    
-    
-    
+      margin-right: auto;    
+      height: 80vh;    
       position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-        /* overflow: hidden; */
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
     }
     
     .gallery-shortcut{
       flex: 1;
-    
-      /* background-color: orangered; */
       margin-right: 0vw;
-    
-    
     }
     
     .contact-shortcut{
       flex: 1;
-      /* background-color: orange; */
       margin-left: 0vw;
-    
-    
     }
     
     .shortcut-body-image{
@@ -232,43 +141,33 @@
     .gallery-shortcut-image, .contact-shortcut-image{
       width: 100%;
       height: 60vh;
-      background-color: #0272d0;
-    
-    
       object-fit: cover;
     
     }
     .gallery-shortcut-image img:hover, .contact-shortcut-image:hover img{
-    
-      background-color: #0261b0;
       opacity: 0.8;
-    
-    
     }
-  
-  
-  
-  
-  
-  
   
   .gallery-shortcut{
     padding-bottom: 20vh;
   }
   
-  
-  
-  
   .home-green-page{
       height: 135vh;
-      
     }
   
   .shortcuts-white-page{
       height: 95vh;
       margin-bottom: 100vh;
     }
-  
+
+    .white-body, .shortcut-white-body{
+      background-color: #F9F9F9;
+    }
+
+    .green-body{
+      background-color: #00300B;
+    }
   
   }
 
@@ -305,12 +204,5 @@
     .hero img{
       width: 74vw;
     }
-    
   
-  
-  }
-
-
-  .about-page{
-    scroll-behavior: smooth;
   }
